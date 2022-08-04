@@ -1,0 +1,613 @@
+from,to,type
+Stirling,Edinburgh,normal
+Stirling,Glasgow,normal
+Edinburgh,Berwick,normal
+Edinburgh,Stirling,normal
+Edinburgh,Glasgow,normal
+Edinburgh,North Sea,port
+Glasgow,Edinburgh,normal
+Glasgow,Carlisle,normal
+Glasgow,Irish Sea,port
+Berwick,Edinburgh,normal
+Berwick,Carlisle,normal
+Berwick,York,normal
+Berwich,North Sea,port
+Carlisle,Glasgow,normal
+Carlisle,Berwick,normal
+Carlisle,York,normal
+Carlisle,Shrewsbury,normal
+York,Carlisle,normal
+York,Berwick,normal
+York,Shrewsbury,normal
+York,Lincoln,normal
+Shrewsbury,Carlisle,normal
+Shrewsbury,York,normal
+Shrewsbury,Wales,normal
+Shrewsbury,London,normal
+Shrewsbury,Bristol,normal
+Lincoln,York,normal
+Lincoln,London,normal
+Norwich,London,normal
+Norwich,North Sea,port
+Wales,Shrewsbury,normal
+Wales,Bristol,normal
+Bristol,Wales,normal
+Bristol,Shrewsbury,normal
+Bristol,London,normal
+Bristol,Plymouth,normal
+Bristol,Portsmouth,normal
+Bristol,Irish Sea,port
+London,Portsmouth,normal
+London,Bristol,normal
+London,Shrewsbury,normal
+London,Lincoln,normal
+London,Norwich,normal
+London,North Sea,port
+Plymouth,Bristol,normal
+Plymouth,Portsmouth,normal
+Plymouth,English Channel,port
+Portsmouth,Plymouth,normal
+Portsmouth,Bristol,normal
+Portsmouth,London,normal
+Portsmouth,English Channel,port
+Brest,Nantes,normal
+Brest,English Channel,port
+Brest,Bay of Biscay,port
+Rouen,Nantes,normal
+Rouen,Tours,normal
+Rouen,Paris,normal
+Rouen,Boulogne,normal
+Rouen,English Channel,port
+Boulogne,Rouen,normal
+Boulogne,Calais,normal
+Boulogne,Paris,normal
+Boulogne,St. Quentin,normal
+Boulogne,English Channel,port
+Calais,Boulogne,normal
+Calais,Brussels,normal
+Calais,Antwerp,normal
+Calais,English Channel,port
+Calais,North Sea,port
+Nantes,Brest,normal
+Nantes,Rouen,normal
+Nantes,Tours,normal
+Nantes,Bordeaux,normal
+Nantes,Bay of Biscay,port
+Tours,Rouen,normal
+Tours,Orléans,normal
+Tours,Limoges,normal
+Tours,Bordeaux,normal
+Tours,Nantes,normal
+Paris,Rouen,normal
+Paris,Bordeaux,normal
+Paris,St. Quentin,normal
+Paris,St. Dizier,normal
+Paris,Dijon,normal
+Paris,Orléans,normal
+St. Quentin,Boulogne,normal
+St. Quentin,Brussels,normal
+St. Quentin,St. Dizier,normal
+St. Quentin,Paris,normal
+Brussels,Calais,normal
+Brussels,Antwerp,normal
+Brussels,Liege,normal
+Brussels,St. Dizier,normal
+Brussels,St. Quentin,normal
+Liege,Antwerp,normal
+Liege,Cologne,normal
+Liege,Trier,normal
+Liege,Metz,normal
+Liege,Brussels,normal
+St. Dizier,Brussels,normal
+St. Dizier,Metz,normal
+St. Dizier,Dijon,normal
+St. Dizier,Paris,normal
+St. Dizier,St. Quentin,normal
+Metz,Liege,normal
+Metz,Trier,normal
+Metz,Strasburg,normal
+Metz,Besançon,normal
+Metz,St. Dizier,normal
+Orléans,Paris,normal
+Orléans,Dijon,normal
+Orléans,Lyon,normal
+Orléans,Tours,normal
+Dijon,St. Dizier,normal
+Dijon,Besançon,normal
+Dijon,Lyon,normal
+Dijon,Orléans,normal
+Dijon,Paris,normal
+Besançon,Metz,normal
+Besançon,Strasburg,normal
+Besançon,Basel,normal
+Besançon,Geneva,normal
+Besançon,Dijon,normal
+Bordeaux,Nantes,normal
+Bordeaux,Tours,normal
+Bordeaux,Limoges,normal
+Bordeaux,Toulouse,normal
+Bordeaux,Navarre,pass
+Bordeaux,Bay of Biscay,port
+Limoges,Tours,normal
+Limoges,Lyon,normal
+Limoges,Bordeaux,normal
+Lyon,Dijon,normal
+Lyon,Geneva,normal
+Lyon,Grenoble,normal
+Lyon,Avignon,normal
+Lyon,Limoges,normal
+Lyon,Orléans,normal
+Geneva,Besançon,normal
+Geneva,Basel,normal
+Geneva,Turin,pass
+Geneva,Grenoble,normal
+Geneva,Lyon,normal
+Toulouse,Bordeaux,normal
+Toulouse,Avignon,normal
+Toulouse,Barcelona,pass
+Avignon,Lyon,normal
+Avignon,Marseille,normal
+Avignon,Barcelona,pass
+Avignon,Toulouse,normal
+Grenoble,Geneva,normal
+Grenoble,Turin,pass
+Grenoble,Lyon,normal
+Marseille,Avignon,normal
+Marseille,Nice,normal
+Nice,Marseille,normal
+Nice,Genoa,pass
+Navarre,Bordeaux,pass
+Navarre,Bilbao,normal
+Navarre,Zaragoza,normal
+Bilbao,Navarre,normal
+Bilbao,Zaragoza,normal
+Bilbao,Valladolid,normal
+Bilbao,Corunna,normal
+Corunna,Bilbao,normal
+Corunna,Valladolid,normal
+Corunna,Bay of Biscay,port
+Corunna,Atlantic Ocean,port
+Valladolid,Corunna,normal
+Valladolid,Bilbao,normal
+Valladolid,Madrid,normal
+Zaragoza,Navarre,normal
+Zaragoza,Barcelona,normal
+Zaragoza,Madrid,normal
+Zaragoza,Bilbao,normal
+Barcelona,Toulouse,pass
+Barcelona,Avignon,pass
+Barcelona,Gulf of Lyon,port
+Barcelona,Valencia,normal
+Barcelona,Zaragoza,normal
+Madrid,Valladolid,normal
+Madrid,Zaragoza,normal
+Madrid,Valencia,normal
+Madrid,Córdoba,normal
+Valencia,Barcelona,normal
+Valencia,Gulf of Lyon,port
+Valencia,Cartagena,normal
+Valencia,Madrid,normal
+Córdoba,Madrid,normal
+Córdoba,Granada,normal
+Córdoba,Seville,normal
+Seville,Córdoba,normal
+Seville,Gibraltar,normal
+Seville,Atlantic Ocean,port
+Granada,Córdoba,normal
+Granada,Cartagena,normal
+Granada,Gibraltar,normal
+Cartagena,Valencia,normal
+Cartagena,Granada,normal
+Cartagena,Gulf of Lyon,port
+Cartagena,Barbary Coast,port
+Gibraltar,Seville,normal
+Gibraltar,Granada,normal
+Gibraltar,Atlantic Ocean,port
+Gibraltar,Barbary Coast,port
+Palma,Gulf of Lyon,port
+Palma,Barbary Coast,port
+Oran,Barbary Coast,port
+Algiers,Barbary Coast,port
+Tunis,Barbary Coast,port
+Tunis,North African Coast,port
+Tripoli,North African Coast,port
+Malta,Ionian Sea,port
+Malta,North African Coast,port
+Turin,Geneva,pass
+Turin,Milan,normal
+Turin,Pavia,normal
+Turin,Genoa,normal
+Turin,Grenoble,pass
+Milan,Turin,normal
+Milan,Trent,normal
+Milan,Modena,normal
+Milan,Pavia,normal
+Trent,Innsbruck,pass
+Trent,Venice,normal
+Trent,Modena,normal
+Trent,Milan,normal
+Venice,Trent,normal
+Venice,Trieste,normal
+Venice,Adriatic Sea,port
+Venice,Ravenna,normal
+Venice,Modena,normal
+Trieste,Graz,normal
+Trieste,Agram,normal
+Trieste,Zara,normal
+Trieste,Adriatic Sea,port
+Trieste,Venice,normal
+Pavia,Milan,normal
+Pavia,Modena,normal
+Pavia,Genoa,normal
+Pavia,Turin,normal
+Modena,Trent,normal
+Modena,Venice,normal
+Modena,Ravenna,normal
+Modena,Florence,normal
+Modena,Pavia,normal
+Modena,Milan,normal
+Genoa,Turin,normal
+Genoa,Pavia,normal
+Genoa,Florence,normal
+Genoa,Siena,normal
+Genoa,Tyrrhenian Sea,port
+Genoa,Gulf of Lyon,port
+Genoa,Nice,pass
+Florence,Modena,normal
+Florence,Siena,normal
+Florence,Genoa,normal
+Ravenna,Venice,normal
+Ravenna,Ancona,normal
+Ravenna,Modena,normal
+Ravenna,Adriatic Sea,port
+Bastia,Gulf of Lyon,port
+Bastia,Adriatic Sea,port
+Siena,Genoa,normal
+Siena,Florence,normal
+Siena,Rome,normal
+Ancona,Ravenna,normal
+Ancona,Cerignola,normal
+Ancona,Rome,normal
+Ancona,Adriatic Sea,port
+Rome,Ancona,normal
+Rome,Cerignola,normal
+Rome,Naples,normal
+Rome,Siena,normal
+Rome,Tyrrhenian Sea,port
+Cerignola,Ancona,normal
+Cerignola,Taranto,normal
+Cerignola,Rome,normal
+Naples,Rome,normal
+Naples,Taranto,normal
+Naples,Messina,normal
+Naples,Tyrrhenian Sea,port
+Cagliari,Tyrrhenian Sea,port
+Cagliari,Barbary Coast,port
+Taranto,Cerignola,normal
+Taranto,Ionian Sea,port
+Taranto,Messina,normal
+Taranto,Naples,normal
+Palermo,Tyrrhenian Sea,port
+Palermo,Messina,normal
+Messina,Palermo,normal
+Messina,Naples,normal
+Messina,Taranto,normal
+Messina,Tyrrhenian Sea,port
+Messina,Ionian Sea,port
+Antwerp,Amsterdam,normal
+Antwerp,Liege,normal
+Antwerp,Brussels,normal
+Antwerp,Calais,normal
+Antwerp,North Sea,port
+Amsterdam,North Sea,port
+Amsterdam,Münster,normal
+Amsterdam,Antwerp,normal
+Münster,Bremen,normal
+Münster,Kassel,normal
+Münster,Cologne,normal
+Münster,Amsterdam,normal
+Bremen,Hamburg,normal
+Bremen,Brunswick,normal
+Bremen,Münster,normal
+Bremen,North Sea,port
+Hamburg,Bremen,normal
+Hamburg,Lübeck,normal
+Hamburg,Brunswick,normal
+Hamburg,North Sea,port
+Lübeck,Hamburg,normal
+Lübeck,Stettin,normal
+Lübeck,Brandenburg,normal
+Lübeck,Magdeburg,normal
+Lübeck,Baltic Sea,port
+Stettin,Lübeck,normal
+Stettin,Brandenburg,normal
+Stettin,Baltic Sea,port
+Brunswick,Bremen,normal
+Brunswick,Hamburg,normal
+Brunswick,Magdeburg,normal
+Brunswick,Kassel,normal
+Magdeburg,Lübeck,normal
+Magdeburg,Brandenburg,normal
+Magdeburg,Wittenberg,normal
+Magdeburg,Erfurt,normal
+Magdeburg,Brunswick,normal
+Brandenburg,Stettin,normal
+Brandenburg,Breslau,normal
+Brandenburg,Wittenberg,normal
+Brandenburg,Magdeburg,normal
+Brandenburg,Lübeck,normal
+Cologne,Münster,normal
+Cologne,Mainz,normal
+Cologne,Liege,normal
+Kassel,Münster,normal
+Kassel,Brunswick,normal
+Kassel,Erfurt,normal
+Kassel,Nuremberg,normal
+Kassel,Mainz,normal
+Erfurt,Magdeburg,normal
+Erfurt,Leipzig,normal
+Erfurt,Kassel,normal
+Leipzig,Wittenberg,normal
+Leipzig,Prague,normal
+Leipzig,Nuremberg,normal
+Leipzig,Erfurt,normal
+Trier,Mainz,normal
+Trier,Metz,normal
+Trier,Liege,normal
+Mainz,Kassel,normal
+Mainz,Nuremberg,normal
+Mainz,Worms,normal
+Mainz,Trier,normal
+Mainz,Cologne,normal
+Nuremberg,Leipzig,normal
+Nuremberg,Regensburg,normal
+Nuremberg,Augsburg,normal
+Nuremberg,Worms,normal
+Nuremberg,Mainz,normal
+Nuremberg,Kassel,normal
+Regensburg,Nuremberg,normal
+Regensburg,Linz,normal
+Regensburg,Salzburg,normal
+Regensburg,Augsburg,normal
+Linz,Regensburg,normal
+Linz,Prague,normal
+Linz,Vienna,normal
+Linz,Salzburg,normal
+Vienna,Brunn,normal
+Vienna,Pressburg,normal
+Vienna,Graz,normal
+Vienna,Linz,normal
+Strasburg,Worms,normal
+Strasburg,Basel,normal
+Strasburg,Besançon,normal
+Strasburg,Metz,normal
+Worms,Mainz,normal
+Worms,Nuremberg,normal
+Worms,Augsburg,normal
+Worms,Strasburg,normal
+Augsburg,Nuremberg,normal
+Augsburg,Regensburg,normal
+Augsburg,Salzburg,normal
+Augsburg,Innsbruck,pass
+Augsburg,Worms,normal
+Salzburg,Regensburg,normal
+Salzburg,Linz,normal
+Salzburg,Graz,pass
+Salzburg,Innsbruck,normal
+Salzburg,Augsburg,normal
+Basel,Strasburg,normal
+Basel,Zürich,normal
+Basel,Geneva,normal
+Basel,Besançon,normal
+Zürich,Basel,normal
+Zürich,Innsbruck,normal
+Innsbruck,Augsburg,pass
+Innsbruck,Salzburg,normal
+Innsbruck,Trent,pass
+Innsbruck,Zürich,normal
+Graz,Vienna,normal
+Graz,Mohacs,normal
+Graz,Agram,normal
+Graz,Trieste,normal
+Graz,Salzburg,pass
+Prague,Wittenberg,normal
+Prague,Brunn,normal
+Prague,Linz,normal
+Prague,Leipzig,normal
+Breslau,Brandenburg,normal
+Breslau,Wittenberg,normal
+Breslau,Brunn,normal
+Brunn,Breslau,normal
+Brunn,Vienna,normal
+Brunn,Prague,normal
+Pressburg,Vienna,normal
+Pressburg,Buda,normal
+Buda,Pressburg,normal
+Buda,Szegedin,normal
+Buda,Mohacs,normal
+Agram,Graz,normal
+Agram,Mohacs,normal
+Agram,Belgrade,normal
+Agram,Zara,pass
+Agram,Trieste,normal
+Mohacs,Buda,normal
+Mohacs,Belgrade,normal
+Mohacs,Agram,normal
+Mohacs,Graz,normal
+Szegedin,Buda,normal
+Szegedin,Nicopolis,pass
+Szegedin,Belgrade,normal
+Zara,Trieste,normal
+Zara,Agram,pass
+Zara,Ragusa,normal
+Belgrade,Szegedin,normal
+Belgrade,Nicopolis,normal
+Belgrade,Nezh,normal
+Belgrade,Ragusa,pass
+Belgrade,Agram,normal
+Belgrade,Mohacs,normal
+Ragusa,Zara,normal
+Ragusa,Belgrade,pass
+Ragusa,Scutari,normal
+Ragusa,Adriatic Sea,port
+Scutari,Ragusa,normal
+Scutari,Nezh,pass
+Scutari,Durazzo,normal
+Scutari,Adriatic Sea,port
+Nezh,Belgrade,normal
+Nezh,Scutari,pass
+Nezh,Sofia,normal
+Nicopolis,Szegedin,pass
+Nicopolis,Belgrade,normal
+Nicopolis,Bucharest,normal
+Nicopolis,Sofia,pass
+Bucharest,Nicopolis,normal
+Bucharest,Nicopolis,normal
+Sofia,Nezh,normal
+Sofia,Nicopolis,pass
+Sofia,Edirne,normal
+Sofia,Salonika,normal
+Varna,Bucharest,normal
+Varna,Black Sea,port
+Varna,Istanbul,normal
+Varna,Edirne,normal
+Edirne,Sofia,normal
+Edirne,Varna,normal
+Edirne,Istanbul,normal
+Edirne,Salonika,normal
+Istanbul,Varna,normal
+Istanbul,Edirne,normal
+Istanbul,Black Sea,port
+Istanbul,Aegean Sea,port
+Durazzo,Scutari,normal
+Durazzo,Larissa,pass
+Durazzo,Adriatic Sea,port
+Salonika,Sofia,pass
+Salonika,Edirne,normal
+Salonika,Larissa,normal
+Salonika,Aegean Sea,port
+Larissa,Salonika,normal
+Larissa,Athens,normal
+Larissa,Lepanto,normal
+Larissa,Durazzo,pass
+Lepanto,Larissa,normal
+Lepanto,Athens,normal
+Lepanto,Ionian Sea,port
+Athens,Larissa,normal
+Athens,Lepanto,normal
+Athens,Coron,normal
+Athens,Aegean Sea,port
+Coron,Athens,normal
+Coron,Ionian Sea,port
+Coron,Aegean Sea,port
+Corfu,Adriatic Sea,port
+Corfu,Ionian Sea,port
+Candia,Aegean Sea,port
+Candia,North African Coast,port
+Rhodes,Aegean Sea,port
+Rhodes,North African Coast,port
+North Sea,Edinburgh,port
+North Sea,Berwick,port
+North Sea,Norwich,port
+North Sea,London,port
+North Sea,Calais,port
+North Sea,Antwerp,port
+North Sea,Amsterdam,port
+North Sea,Bremen,port
+North Sea,Hamburg,port
+North Sea,English Channel,sea
+North Sea,Irish Sea,sea
+Irish Sea,Glasgow,port
+Irish Sea,Bristol,port
+Irish Sea,English Channel,sea
+Irish Sea,North Sea,sea
+Irish Sea,Bay of Biscay,sea
+English Channel,Plymouth,port
+English Channel,Portsmouth,port
+English Channel,Calais,port
+English Channel,Boulogne,port
+English Channel,Rouen,port
+English Channel,Brest,port
+English Channel,North Sea,sea
+English Channel,Irish Sea,sea
+English Channel,Bay of Biscay,sea
+Bay of Biscay,Brest,port
+Bay of Biscay,Nantes,port
+Bay of Biscay,Bordeaux,port
+Bay of Biscay,Corunna,port
+Bay of Biscay,Irish Sea,sea
+Bay of Biscay,English Channel,sea
+Bay of Biscay,Atlantic Ocean,sea
+Atlantic Ocean,Corunna,port
+Atlantic Ocean,Seville,port
+Atlantic Ocean,Gibraltar,port
+Atlantic Ocean,Bay of Biscay,sea
+Atlantic Ocean,Barbary Coast,sea
+Barbary Coast,Gibraltar,port
+Barbary Coast,Cartagena,port
+Barbary Coast,Palma,port
+Barbary Coast,Cagliari,port
+Barbary Coast,Tunis,port
+Barbary Coast,Algiers,port
+Barbary Coast,Oran,port
+Barbary Coast,Atlantic Ocean,sea
+Barbary Coast,Gulf of Lyon,sea
+Barbary Coast,Tyrrhenian Sea,sea
+Barbary Coast,Ionian Sea,sea
+Barbary Coast,North African Coast,sea
+Gulf of Lyon,Cartagena,port
+Gulf of Lyon,Valencia,port
+Gulf of Lyon,Barcelona,port
+Gulf of Lyon,Palma,port
+Gulf of Lyon,Marseille,port
+Gulf of Lyon,Nice,port
+Gulf of Lyon,Bastia,port
+Gulf of Lyon,Genoa,port
+Gulf of Lyon,Tyrrhenian Sea,sea
+Gulf of Lyon,Barbary Coast,sea
+Tyrrhenian Sea,Genoa,port
+Tyrrhenian Sea,Rome,port
+Tyrrhenian Sea,Bastia,port
+Tyrrhenian Sea,Naples,port
+Tyrrhenian Sea,Messina,port
+Tyrrhenian Sea,Palermo,port
+Tyrrhenian Sea,Cagliari,port
+Tyrrhenian Sea,Gulf of Lyon,sea
+Tyrrhenian Sea,Barbary Coast,sea
+Adriatic Sea,Venice,port
+Adriatic Sea,Trieste,port
+Adriatic Sea,Ravenna,port
+Adriatic Sea,Ancona,port
+Adriatic Sea,Scutari,port
+Adriatic Sea,Durazzo,port
+Adriatic Sea,Corf,port
+Adriatic Sea,Ragusa,port
+Adriatic Sea,Ionian Sea,sea
+Ionian Sea,Taranto,port
+Ionian Sea,Corfu,port
+Ionian Sea,Lepanto,port
+Ionian Sea,Coron,port
+Ionian Sea,Malta,port
+Ionian Sea,Messina,port
+Ionian Sea,Adriatic Sea,sea
+Ionian Sea,Aegean Sea,sea
+Ionian Sea,North African Coast,sea
+Ionian Sea,Barbary Coast,sea
+North African Coast,Tunis,port
+North African Coast,Malta,port
+North African Coast,Tripoli,port
+North African Coast,Candia,port
+North African Coast,Rhodes,port
+North African Coast,Barbary Coast,sea
+North African Coast,Ionian Sea,sea
+North African Coast,Aegean Sea,sea
+Aegean Sea,Salonika,port
+Aegean Sea,Istanbul,port
+Aegean Sea,Rhodes,port
+Aegean Sea,Candia,port
+Aegean Sea,Coron,port
+Aegean Sea,Athens,port
+Aegean Sea,Ionian Sea,sea
+Aegean Sea,North African Coast,sea
+Black Sea,Varna,port
+Black Sea,Istanbul,port

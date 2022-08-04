@@ -1,0 +1,148 @@
+name,type,home_power
+Stirling,normal,scotland
+Edinburgh,key,scotland
+Glasgow,normal,scotland
+Carlisle,normal,england
+Berwick,normal,england
+York,key,england
+Shrewsbury,normal,england
+Lincoln,normal,england
+Norwich,normal,england
+Wales,normal,england
+Bristol,key,england
+London,capital,england
+Plymouth,normal,england
+Portsmouth,normal,england
+Calais,key,england
+Brest,normal,france
+Nantes,normal,france
+Bordeaux,key,france
+Rouen,key,france
+Tours,normal,france
+Limoges,normal,france
+Toulouse,normal,france
+Boulogne,normal,france
+Paris,capital,france
+Orléans,normal,france
+St. Quentin,normal,france
+St. Dizier,normal,france
+Dijon,normal,france
+Lyon,key,france
+Avignon,normal,france
+Marseille,key,france
+Grenoble,normal,france
+Amsterdam,normal,hapsburg
+Antwerp,key,hapsburg
+Brussels,fortress,hapsburg
+Liege,normal,independent
+Metz,key,independent
+Besançon,fortress,hapsburg
+Geneva,normal,independent
+Nice,normal,independent
+Corunna,normal,hapsburg
+Valladolid,capital,hapsburg
+Madrid,normal,hapsburg
+Córdoba,normal,hapsburg
+Granada,normal,hapsburg
+Seville,key,hapsburg
+Gibraltar,fortress,hapsburg
+Bilbao,normal,hapsburg
+Navarre,key,hapsburg
+Zaragoza,normal,hapsburg
+Valencia,normal,hapsburg
+Cartagena,normal,hapsburg
+Barcelona,key,hapsburg
+Münster,normal,protestant
+Bremen,normal,protestant
+Hamburg,normal,protestant
+Lübeck,normal,protestant
+Stettin,normal,protestant
+Brunswick,normal,protestant
+Magdeburg,normal,protestant
+Brandenburg,electorate,protestant
+Wittenberg,electorate,protestant
+Cologne,electorate,protestant
+Kassel,normal,protestant
+Erfurt,normal,protestant
+Leipzig,normal,protestant
+Trier,electorate,protestant
+Mainz,electorate,protestant
+Nuremberg,normal,protestant
+Regensburg,normal,protestant
+Linz,normal,hapsburg
+Vienna,capital,hapsburg
+Strasburg,normal,protestant
+Worms,normal,protestant
+Augsburg,electorate,protestant
+Innsbruck,normal,hapsburg
+Salzburg,normal,protestant
+Graz,normal,hapsburg
+Basel,normal,independent
+Zürich,normal,independent
+Turin,normal,independent
+Milan,key,independent
+Trent,normal,independent
+Venice,key,venice
+Trieste,normal,hapsburg
+Pavia,normal,independent
+Modena,normal,independent
+Ravenna,key,papacy
+Genoa,key,genoa
+Bastia,normal,genoa
+Florence,key,independent
+Siena,normal,independent
+Ancona,normal,papacy
+Rome,capital,papacy
+Cerignola,normal,hapsburg
+Naples,key,hapsburg
+Taranto,normal,hapsburg
+Palermo,normal,hapsburg
+Messina,normal,hapsburg
+Palma,normal,hapsburg
+Cagliari,normal,hapsburg
+Oran,normal,hapsburg/ottoman
+Algiers,key,ottoman
+Tunis,key,independent
+Malta,fortress,hapsburg
+Tripoli,normal,hapsburg/ottoman
+Breslau,normal,hungary
+Prague,key,hungary
+Brunn,normal,hungary
+Pressburg,normal,hungary
+Buda,key,hungary
+Szegedin,normal,hungary
+Agram,normal,hungary
+Mohacs,normal,hungary
+Belgrade,key,hungary
+Zara,normal,venice
+Ragusa,normal,independent
+Bucharest,normal,ottoman
+Nicopolis,normal,ottoman
+Varna,normal,ottoman
+Nezh,normal,ottoman
+Sofia,normal,ottoman
+Edirne,key,ottoman
+Istanbul,capital,ottoman
+Scutari,fortress,ottoman
+Durazzo,normal,ottoman
+Salonika,key,ottoman
+Larissa,normal,ottoman
+Lepanto,normal,ottoman
+Athens,key,ottoman
+Coron,normal,ottoman
+Corfu,fortress,venice
+Candia,fortress,venice
+Rhodes,fortress,independent
+Irish Sea,sea,sea
+North Sea,sea,sea
+Baltic Sea,sea,sea
+English Channel,sea,sea
+Bay of Biscay,sea,sea
+Atlantic Ocean,sea,sea
+Gulf of Lyon,sea,sea
+Barbary Coast,sea,sea
+Tyrrhenian Sea,sea,sea
+Ionian Sea,sea,sea
+North African Coast,sea,sea
+Aegean Sea,sea,sea
+Black Sea,sea,sea
