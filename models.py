@@ -18,11 +18,11 @@ connection_types = ['normal', 'pass', 'port', 'sea']
 
 
 class Space(object):
-    def __init__(self, name, type_, home_power, connections=[]):
+    def __init__(self, name, type_, home_power, connections=None):
         self.name = name
         self.type = type_
         self.home_power = home_power
-        self.connections = [connections]
+        self.connections = connections or []
 
     @classmethod
     def from_csv_row(cls, row):
@@ -30,16 +30,19 @@ class Space(object):
 
     def get_connection_to(self, space_name):
         for connection in self.connections:
-            if connection.to == space.name:
+            if connection.dest == space_name:
                 return connection
         return None
+
+    def __str__(self):
+        return f"Space:{self.name}"
 
 
 class Connection(object):
     def __init__(self, row):
-        self.from_ = row[0]
-        self.to = row[1]
+        self.origin = row[0]
+        self.dest = row[1]
         self.type = row[2]
 
     def __str__(self):
-        return f"{self.from_} -> {self.to}"
+        return f"{self.origin} -> {self.dest}"

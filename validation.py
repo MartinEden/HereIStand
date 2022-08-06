@@ -1,3 +1,5 @@
+import sys
+
 from models import connection_types, space_types, powers
 
 
@@ -7,6 +9,7 @@ def exit_if_any_problems(func):
         if problems:
             for problem in problems:
                 print(problem)
+            print(f"Exiting with {len(problems)} problems")
             sys.exit(1)
     return inner
 
@@ -39,35 +42,35 @@ def validate_spaces(spaces):
 
 
 @exit_if_any_problems
-def validate_connections_basic(connections, spaces):
+def validate_connections_basic(connections, space_lookup):
     for duplicate in duplicates_in(str(c) for c in connections):
         yield f'Duplicate connection: {duplicate}'
 
     for connection in connections:
-        if connection.from_ not in spaces:
-            yield f"Connection to '{connection.to}' from unknown space '{connection.from_}'"
-        if connection.to not in spaces:
-            yield f"Connection from '{connection.from_}' to unknown space '{connection.to}'"   
+        if connection.origin not in space_lookup:
+            yield f"Connection to '{connection.dest}' from unknown space '{connection.origin}'"
+        if connection.dest not in space_lookup:
+            yield f"Connection from '{connection.origin}' to unknown space '{connection.dest}'"   
 
         if connection.type not in connection_types:
             yield f"Connection '{connection}' has unknown type '{connection.type}'"
 
 
 @exit_if_any_problems
-def validate_connections(spaces):
-    for space in spaces.values():
+def validate_connections(space_lookup):
+    for space in space_lookup.values():
         for connection in space.connections:
-            if connection.from_ != space.name:
-                yield f"Space '{space.name}' has connection '{connection}' that should belong to '{connection.from_}'"
+            if connection.origin != space.name:
+                yield f"Space '{space.name}' has connection '{connection}' that should belong to '{connection.origin}'"
 
-            to_space = spaces[connection.to]
-            reciprocal = to_space.get_connection_to(space.name)
+            target_space = space_lookup[connection.dest]
+            reciprocal = target_space.get_connection_to(space.name)
             if reciprocal is None:
                 yield f"Connection '{connection}' does not have reciprocal"
-
-            if connection.type != reciprocal.type:
-                yield f"Connection '{connection}' is of type '{connection.type}', but the reciprocal connection '{reciprocal}' has type '{reciprocal.type}'"
-            if space.type != "sea" and to_space.type == "sea" and connection.type != "port":
-                yield f"Connection '{connection}': Expected type 'port', was actually '{connection.type}'"
-            if space.type == "sea" and to_space.type == "sea" and connection.type != "sea":
-                yield f"Connection '{connection}': Expected type 'sea', was actually '{connection.type}'"                
+            else:
+                if connection.type != reciprocal.type:
+                    yield f"Connection '{connection}' is of type '{connection.type}', but the reciprocal connection '{reciprocal}' has type '{reciprocal.type}'"
+                if space.type != "sea" and target_space.type == "sea" and connection.type != "port":
+                    yield f"Connection '{connection}': Expected type 'port', was actually '{connection.type}'"
+                if space.type == "sea" and target_space.type == "sea" and connection.type != "sea":
+                    yield f"Connection '{connection}': Expected type 'sea', was actually '{connection.type}'"                
