@@ -11,8 +11,8 @@ def exit_if_any_problems(func):
                 print(problem)
             print(f"Exiting with {len(problems)} problems")
             sys.exit(1)
-    return inner
 
+    return inner
 
 
 def duplicates_in(some_list):
@@ -50,7 +50,7 @@ def validate_connection_rows(connections, space_lookup):
         if connection.origin not in space_lookup:
             yield f"Connection to '{connection.dest}' from unknown space '{connection.origin}'"
         if connection.dest not in space_lookup:
-            yield f"Connection from '{connection.origin}' to unknown space '{connection.dest}'"   
+            yield f"Connection from '{connection.origin}' to unknown space '{connection.dest}'"
 
         if connection.type not in connection_types:
             yield f"Connection '{connection}' has unknown type '{connection.type}'"
@@ -70,4 +70,4 @@ def validate_connections(space_lookup):
                 if space.type != "sea" and target_space.type == "sea" and connection.type != "port":
                     yield f"Connection '{connection}': Expected type 'port', was actually '{connection.type}'"
                 if space.type == "sea" and target_space.type == "sea" and connection.type != "sea":
-                    yield f"Connection '{connection}': Expected type 'sea', was actually '{connection.type}'"                
+                    yield f"Connection '{connection}': Expected type 'sea', was actually '{connection.type}'"

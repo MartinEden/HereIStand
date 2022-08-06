@@ -1,12 +1,12 @@
 space_types = ['normal', 'fortress', 'key', 'capital', 'electorate', 'sea']
 powers = [
-    'england', 
-    'protestant', 
-    'scotland', 
-    'france', 
-    'papacy', 
+    'england',
+    'protestant',
+    'scotland',
+    'france',
+    'papacy',
     'hapsburg',
-    'hapsburg/ottoman', 
+    'hapsburg/ottoman',
     'ottoman',
     'hungary',
     'genoa',
@@ -26,7 +26,7 @@ class Space(object):
 
     @classmethod
     def from_csv_row(cls, row):
-        return Space(name = row[0], type_ = row[1], home_power = row[2])
+        return Space(name=row[0], type_=row[1], home_power=row[2])
 
     def get_connection_to(self, space_name):
         for connection in self.connections:
