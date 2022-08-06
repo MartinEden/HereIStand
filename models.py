@@ -34,6 +34,9 @@ class Space(object):
                 return connection
         return None
 
+    def is_key(self):
+        return self.type == "key" or self.type == "capital"
+
     def __str__(self):
         return f"Space:{self.name}"
 

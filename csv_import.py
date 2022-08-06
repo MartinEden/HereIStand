@@ -37,6 +37,7 @@ def import_and_validate():
         from_space = space_lookup[c_row.origin]
         connection = Connection(c_row.dest, c_row.type)
         from_space.connections.append(connection)
-    
+
     validation.validate_connections(space_lookup)
+    validation.validate_expected_space_counts(spaces)
     return spaces
