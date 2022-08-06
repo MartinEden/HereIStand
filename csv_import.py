@@ -1,5 +1,5 @@
 import csv
-from models import Space, Connection
+from models import Space, Connection, ConnectionRow
 import validation
 
 def import_spaces(path):
@@ -15,7 +15,7 @@ def import_connections(path):
         reader = csv.reader(file, delimiter=',')
         next(reader) # skip header row
         for row in reader:
-            yield Connection(row)
+            yield ConnectionRow(row)
 
 
 def import_csv(spaces_path, connections_path):    
@@ -25,15 +25,16 @@ def import_csv(spaces_path, connections_path):
 
 
 def import_and_validate():
-    spaces, connections = import_csv("spaces.csv", "connections.csv")
+    spaces, connection_rows = import_csv("spaces.csv", "connections.csv")
 
     validation.validate_spaces(spaces)
     space_lookup = { s.name: s for s in spaces }
 
-    validation.validate_connections_basic(connections, space_lookup)
+    validation.validate_connection_rows(connection_rows, space_lookup)
 
-    for connection in connections:
-        from_space = space_lookup[connection.origin]
+    for c_row in connection_rows:
+        from_space = space_lookup[c_row.origin]
+        connection = Connection(c_row.dest, c_row.type)
         from_space.connections.append(connection)
     
     validation.validate_connections(space_lookup)

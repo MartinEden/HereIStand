@@ -42,7 +42,7 @@ def validate_spaces(spaces):
 
 
 @exit_if_any_problems
-def validate_connections_basic(connections, space_lookup):
+def validate_connection_rows(connections, space_lookup):
     for duplicate in duplicates_in(str(c) for c in connections):
         yield f'Duplicate connection: {duplicate}'
 
@@ -60,9 +60,6 @@ def validate_connections_basic(connections, space_lookup):
 def validate_connections(space_lookup):
     for space in space_lookup.values():
         for connection in space.connections:
-            if connection.origin != space.name:
-                yield f"Space '{space.name}' has connection '{connection}' that should belong to '{connection.origin}'"
-
             target_space = space_lookup[connection.dest]
             reciprocal = target_space.get_connection_to(space.name)
             if reciprocal is None:

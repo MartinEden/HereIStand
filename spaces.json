@@ -5,12 +5,10 @@
         "home_power": "scotland",
         "connections": [
             {
-                "origin": "Stirling",
                 "dest": "Edinburgh",
                 "type": "normal"
             },
             {
-                "origin": "Stirling",
                 "dest": "Glasgow",
                 "type": "normal"
             }
@@ -22,22 +20,18 @@
         "home_power": "scotland",
         "connections": [
             {
-                "origin": "Edinburgh",
                 "dest": "Berwick",
                 "type": "normal"
             },
             {
-                "origin": "Edinburgh",
                 "dest": "Stirling",
                 "type": "normal"
             },
             {
-                "origin": "Edinburgh",
                 "dest": "Glasgow",
                 "type": "normal"
             },
             {
-                "origin": "Edinburgh",
                 "dest": "North Sea",
                 "type": "port"
             }
@@ -49,22 +43,18 @@
         "home_power": "scotland",
         "connections": [
             {
-                "origin": "Glasgow",
                 "dest": "Edinburgh",
                 "type": "normal"
             },
             {
-                "origin": "Glasgow",
                 "dest": "Carlisle",
                 "type": "normal"
             },
             {
-                "origin": "Glasgow",
                 "dest": "Stirling",
                 "type": "normal"
             },
             {
-                "origin": "Glasgow",
                 "dest": "Irish Sea",
                 "type": "port"
             }
@@ -76,22 +66,18 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "Carlisle",
                 "dest": "Glasgow",
                 "type": "normal"
             },
             {
-                "origin": "Carlisle",
                 "dest": "Berwick",
                 "type": "normal"
             },
             {
-                "origin": "Carlisle",
                 "dest": "York",
                 "type": "normal"
             },
             {
-                "origin": "Carlisle",
                 "dest": "Shrewsbury",
                 "type": "normal"
             }
@@ -103,22 +89,18 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "Berwick",
                 "dest": "Edinburgh",
                 "type": "normal"
             },
             {
-                "origin": "Berwick",
                 "dest": "Carlisle",
                 "type": "normal"
             },
             {
-                "origin": "Berwick",
                 "dest": "York",
                 "type": "normal"
             },
             {
-                "origin": "Berwick",
                 "dest": "North Sea",
                 "type": "port"
             }
@@ -130,22 +112,18 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "York",
                 "dest": "Carlisle",
                 "type": "normal"
             },
             {
-                "origin": "York",
                 "dest": "Berwick",
                 "type": "normal"
             },
             {
-                "origin": "York",
                 "dest": "Shrewsbury",
                 "type": "normal"
             },
             {
-                "origin": "York",
                 "dest": "Lincoln",
                 "type": "normal"
             }
@@ -157,27 +135,22 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "Shrewsbury",
                 "dest": "Carlisle",
                 "type": "normal"
             },
             {
-                "origin": "Shrewsbury",
                 "dest": "York",
                 "type": "normal"
             },
             {
-                "origin": "Shrewsbury",
                 "dest": "Wales",
                 "type": "normal"
             },
             {
-                "origin": "Shrewsbury",
                 "dest": "London",
                 "type": "normal"
             },
             {
-                "origin": "Shrewsbury",
                 "dest": "Bristol",
                 "type": "normal"
             }
@@ -189,12 +162,10 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "Lincoln",
                 "dest": "York",
                 "type": "normal"
             },
             {
-                "origin": "Lincoln",
                 "dest": "London",
                 "type": "normal"
             }
@@ -206,12 +177,10 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "Norwich",
                 "dest": "London",
                 "type": "normal"
             },
             {
-                "origin": "Norwich",
                 "dest": "North Sea",
                 "type": "port"
             }
@@ -223,12 +192,10 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "Wales",
                 "dest": "Shrewsbury",
                 "type": "normal"
             },
             {
-                "origin": "Wales",
                 "dest": "Bristol",
                 "type": "normal"
             }
@@ -240,32 +207,26 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "Bristol",
                 "dest": "Wales",
                 "type": "normal"
             },
             {
-                "origin": "Bristol",
                 "dest": "Shrewsbury",
                 "type": "normal"
             },
             {
-                "origin": "Bristol",
                 "dest": "London",
                 "type": "normal"
             },
             {
-                "origin": "Bristol",
                 "dest": "Plymouth",
                 "type": "normal"
             },
             {
-                "origin": "Bristol",
                 "dest": "Portsmouth",
                 "type": "normal"
             },
             {
-                "origin": "Bristol",
                 "dest": "Irish Sea",
                 "type": "port"
             }
@@ -277,32 +238,26 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "London",
                 "dest": "Portsmouth",
                 "type": "normal"
             },
             {
-                "origin": "London",
                 "dest": "Bristol",
                 "type": "normal"
             },
             {
-                "origin": "London",
                 "dest": "Shrewsbury",
                 "type": "normal"
             },
             {
-                "origin": "London",
                 "dest": "Lincoln",
                 "type": "normal"
             },
             {
-                "origin": "London",
                 "dest": "Norwich",
                 "type": "normal"
             },
             {
-                "origin": "London",
                 "dest": "North Sea",
                 "type": "port"
             }
@@ -314,17 +269,14 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "Plymouth",
                 "dest": "Bristol",
                 "type": "normal"
             },
             {
-                "origin": "Plymouth",
                 "dest": "Portsmouth",
                 "type": "normal"
             },
             {
-                "origin": "Plymouth",
                 "dest": "English Channel",
                 "type": "port"
             }
@@ -336,22 +288,18 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "Portsmouth",
                 "dest": "Plymouth",
                 "type": "normal"
             },
             {
-                "origin": "Portsmouth",
                 "dest": "Bristol",
                 "type": "normal"
             },
             {
-                "origin": "Portsmouth",
                 "dest": "London",
                 "type": "normal"
             },
             {
-                "origin": "Portsmouth",
                 "dest": "English Channel",
                 "type": "port"
             }
@@ -363,27 +311,22 @@
         "home_power": "england",
         "connections": [
             {
-                "origin": "Calais",
                 "dest": "Boulogne",
                 "type": "normal"
             },
             {
-                "origin": "Calais",
                 "dest": "Brussels",
                 "type": "normal"
             },
             {
-                "origin": "Calais",
                 "dest": "Antwerp",
                 "type": "normal"
             },
             {
-                "origin": "Calais",
                 "dest": "English Channel",
                 "type": "port"
             },
             {
-                "origin": "Calais",
                 "dest": "North Sea",
                 "type": "port"
             }
@@ -395,17 +338,14 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Brest",
                 "dest": "Nantes",
                 "type": "normal"
             },
             {
-                "origin": "Brest",
                 "dest": "English Channel",
                 "type": "port"
             },
             {
-                "origin": "Brest",
                 "dest": "Bay of Biscay",
                 "type": "port"
             }
@@ -417,27 +357,22 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Nantes",
                 "dest": "Brest",
                 "type": "normal"
             },
             {
-                "origin": "Nantes",
                 "dest": "Rouen",
                 "type": "normal"
             },
             {
-                "origin": "Nantes",
                 "dest": "Tours",
                 "type": "normal"
             },
             {
-                "origin": "Nantes",
                 "dest": "Bordeaux",
                 "type": "normal"
             },
             {
-                "origin": "Nantes",
                 "dest": "Bay of Biscay",
                 "type": "port"
             }
@@ -449,32 +384,26 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Bordeaux",
                 "dest": "Nantes",
                 "type": "normal"
             },
             {
-                "origin": "Bordeaux",
                 "dest": "Tours",
                 "type": "normal"
             },
             {
-                "origin": "Bordeaux",
                 "dest": "Limoges",
                 "type": "normal"
             },
             {
-                "origin": "Bordeaux",
                 "dest": "Toulouse",
                 "type": "normal"
             },
             {
-                "origin": "Bordeaux",
                 "dest": "Navarre",
                 "type": "pass"
             },
             {
-                "origin": "Bordeaux",
                 "dest": "Bay of Biscay",
                 "type": "port"
             }
@@ -486,27 +415,22 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Rouen",
                 "dest": "Nantes",
                 "type": "normal"
             },
             {
-                "origin": "Rouen",
                 "dest": "Tours",
                 "type": "normal"
             },
             {
-                "origin": "Rouen",
                 "dest": "Paris",
                 "type": "normal"
             },
             {
-                "origin": "Rouen",
                 "dest": "Boulogne",
                 "type": "normal"
             },
             {
-                "origin": "Rouen",
                 "dest": "English Channel",
                 "type": "port"
             }
@@ -518,27 +442,22 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Tours",
                 "dest": "Rouen",
                 "type": "normal"
             },
             {
-                "origin": "Tours",
                 "dest": "Orl\u00e9ans",
                 "type": "normal"
             },
             {
-                "origin": "Tours",
                 "dest": "Limoges",
                 "type": "normal"
             },
             {
-                "origin": "Tours",
                 "dest": "Bordeaux",
                 "type": "normal"
             },
             {
-                "origin": "Tours",
                 "dest": "Nantes",
                 "type": "normal"
             }
@@ -550,17 +469,14 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Limoges",
                 "dest": "Tours",
                 "type": "normal"
             },
             {
-                "origin": "Limoges",
                 "dest": "Lyon",
                 "type": "normal"
             },
             {
-                "origin": "Limoges",
                 "dest": "Bordeaux",
                 "type": "normal"
             }
@@ -572,17 +488,14 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Toulouse",
                 "dest": "Bordeaux",
                 "type": "normal"
             },
             {
-                "origin": "Toulouse",
                 "dest": "Avignon",
                 "type": "normal"
             },
             {
-                "origin": "Toulouse",
                 "dest": "Barcelona",
                 "type": "pass"
             }
@@ -594,27 +507,22 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Boulogne",
                 "dest": "Rouen",
                 "type": "normal"
             },
             {
-                "origin": "Boulogne",
                 "dest": "Calais",
                 "type": "normal"
             },
             {
-                "origin": "Boulogne",
                 "dest": "Paris",
                 "type": "normal"
             },
             {
-                "origin": "Boulogne",
                 "dest": "St. Quentin",
                 "type": "normal"
             },
             {
-                "origin": "Boulogne",
                 "dest": "English Channel",
                 "type": "port"
             }
@@ -626,32 +534,26 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Paris",
                 "dest": "Rouen",
                 "type": "normal"
             },
             {
-                "origin": "Paris",
                 "dest": "St. Quentin",
                 "type": "normal"
             },
             {
-                "origin": "Paris",
                 "dest": "St. Dizier",
                 "type": "normal"
             },
             {
-                "origin": "Paris",
                 "dest": "Dijon",
                 "type": "normal"
             },
             {
-                "origin": "Paris",
                 "dest": "Orl\u00e9ans",
                 "type": "normal"
             },
             {
-                "origin": "Paris",
                 "dest": "Boulogne",
                 "type": "normal"
             }
@@ -663,22 +565,18 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Orl\u00e9ans",
                 "dest": "Paris",
                 "type": "normal"
             },
             {
-                "origin": "Orl\u00e9ans",
                 "dest": "Dijon",
                 "type": "normal"
             },
             {
-                "origin": "Orl\u00e9ans",
                 "dest": "Lyon",
                 "type": "normal"
             },
             {
-                "origin": "Orl\u00e9ans",
                 "dest": "Tours",
                 "type": "normal"
             }
@@ -690,22 +588,18 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "St. Quentin",
                 "dest": "Boulogne",
                 "type": "normal"
             },
             {
-                "origin": "St. Quentin",
                 "dest": "Brussels",
                 "type": "normal"
             },
             {
-                "origin": "St. Quentin",
                 "dest": "St. Dizier",
                 "type": "normal"
             },
             {
-                "origin": "St. Quentin",
                 "dest": "Paris",
                 "type": "normal"
             }
@@ -717,27 +611,22 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "St. Dizier",
                 "dest": "Brussels",
                 "type": "normal"
             },
             {
-                "origin": "St. Dizier",
                 "dest": "Metz",
                 "type": "normal"
             },
             {
-                "origin": "St. Dizier",
                 "dest": "Dijon",
                 "type": "normal"
             },
             {
-                "origin": "St. Dizier",
                 "dest": "Paris",
                 "type": "normal"
             },
             {
-                "origin": "St. Dizier",
                 "dest": "St. Quentin",
                 "type": "normal"
             }
@@ -749,27 +638,22 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Dijon",
                 "dest": "St. Dizier",
                 "type": "normal"
             },
             {
-                "origin": "Dijon",
                 "dest": "Besan\u00e7on",
                 "type": "normal"
             },
             {
-                "origin": "Dijon",
                 "dest": "Lyon",
                 "type": "normal"
             },
             {
-                "origin": "Dijon",
                 "dest": "Orl\u00e9ans",
                 "type": "normal"
             },
             {
-                "origin": "Dijon",
                 "dest": "Paris",
                 "type": "normal"
             }
@@ -781,32 +665,26 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Lyon",
                 "dest": "Dijon",
                 "type": "normal"
             },
             {
-                "origin": "Lyon",
                 "dest": "Geneva",
                 "type": "normal"
             },
             {
-                "origin": "Lyon",
                 "dest": "Grenoble",
                 "type": "normal"
             },
             {
-                "origin": "Lyon",
                 "dest": "Avignon",
                 "type": "normal"
             },
             {
-                "origin": "Lyon",
                 "dest": "Limoges",
                 "type": "normal"
             },
             {
-                "origin": "Lyon",
                 "dest": "Orl\u00e9ans",
                 "type": "normal"
             }
@@ -818,22 +696,18 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Avignon",
                 "dest": "Lyon",
                 "type": "normal"
             },
             {
-                "origin": "Avignon",
                 "dest": "Marseille",
                 "type": "normal"
             },
             {
-                "origin": "Avignon",
                 "dest": "Barcelona",
                 "type": "pass"
             },
             {
-                "origin": "Avignon",
                 "dest": "Toulouse",
                 "type": "normal"
             }
@@ -845,17 +719,14 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Marseille",
                 "dest": "Avignon",
                 "type": "normal"
             },
             {
-                "origin": "Marseille",
                 "dest": "Nice",
                 "type": "normal"
             },
             {
-                "origin": "Marseille",
                 "dest": "Gulf of Lyon",
                 "type": "port"
             }
@@ -867,17 +738,14 @@
         "home_power": "france",
         "connections": [
             {
-                "origin": "Grenoble",
                 "dest": "Geneva",
                 "type": "normal"
             },
             {
-                "origin": "Grenoble",
                 "dest": "Turin",
                 "type": "pass"
             },
             {
-                "origin": "Grenoble",
                 "dest": "Lyon",
                 "type": "normal"
             }
@@ -889,17 +757,14 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Amsterdam",
                 "dest": "North Sea",
                 "type": "port"
             },
             {
-                "origin": "Amsterdam",
                 "dest": "M\u00fcnster",
                 "type": "normal"
             },
             {
-                "origin": "Amsterdam",
                 "dest": "Antwerp",
                 "type": "normal"
             }
@@ -911,27 +776,22 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Antwerp",
                 "dest": "Amsterdam",
                 "type": "normal"
             },
             {
-                "origin": "Antwerp",
                 "dest": "Liege",
                 "type": "normal"
             },
             {
-                "origin": "Antwerp",
                 "dest": "Brussels",
                 "type": "normal"
             },
             {
-                "origin": "Antwerp",
                 "dest": "Calais",
                 "type": "normal"
             },
             {
-                "origin": "Antwerp",
                 "dest": "North Sea",
                 "type": "port"
             }
@@ -943,27 +803,22 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Brussels",
                 "dest": "Calais",
                 "type": "normal"
             },
             {
-                "origin": "Brussels",
                 "dest": "Antwerp",
                 "type": "normal"
             },
             {
-                "origin": "Brussels",
                 "dest": "Liege",
                 "type": "normal"
             },
             {
-                "origin": "Brussels",
                 "dest": "St. Dizier",
                 "type": "normal"
             },
             {
-                "origin": "Brussels",
                 "dest": "St. Quentin",
                 "type": "normal"
             }
@@ -975,27 +830,22 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Liege",
                 "dest": "Antwerp",
                 "type": "normal"
             },
             {
-                "origin": "Liege",
                 "dest": "Cologne",
                 "type": "normal"
             },
             {
-                "origin": "Liege",
                 "dest": "Trier",
                 "type": "normal"
             },
             {
-                "origin": "Liege",
                 "dest": "Metz",
                 "type": "normal"
             },
             {
-                "origin": "Liege",
                 "dest": "Brussels",
                 "type": "normal"
             }
@@ -1007,27 +857,22 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Metz",
                 "dest": "Liege",
                 "type": "normal"
             },
             {
-                "origin": "Metz",
                 "dest": "Trier",
                 "type": "normal"
             },
             {
-                "origin": "Metz",
                 "dest": "Strasburg",
                 "type": "normal"
             },
             {
-                "origin": "Metz",
                 "dest": "Besan\u00e7on",
                 "type": "normal"
             },
             {
-                "origin": "Metz",
                 "dest": "St. Dizier",
                 "type": "normal"
             }
@@ -1039,27 +884,22 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Besan\u00e7on",
                 "dest": "Metz",
                 "type": "normal"
             },
             {
-                "origin": "Besan\u00e7on",
                 "dest": "Strasburg",
                 "type": "normal"
             },
             {
-                "origin": "Besan\u00e7on",
                 "dest": "Basel",
                 "type": "normal"
             },
             {
-                "origin": "Besan\u00e7on",
                 "dest": "Geneva",
                 "type": "normal"
             },
             {
-                "origin": "Besan\u00e7on",
                 "dest": "Dijon",
                 "type": "normal"
             }
@@ -1071,27 +911,22 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Geneva",
                 "dest": "Besan\u00e7on",
                 "type": "normal"
             },
             {
-                "origin": "Geneva",
                 "dest": "Basel",
                 "type": "normal"
             },
             {
-                "origin": "Geneva",
                 "dest": "Turin",
                 "type": "pass"
             },
             {
-                "origin": "Geneva",
                 "dest": "Grenoble",
                 "type": "normal"
             },
             {
-                "origin": "Geneva",
                 "dest": "Lyon",
                 "type": "normal"
             }
@@ -1103,17 +938,14 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Nice",
                 "dest": "Marseille",
                 "type": "normal"
             },
             {
-                "origin": "Nice",
                 "dest": "Genoa",
                 "type": "pass"
             },
             {
-                "origin": "Nice",
                 "dest": "Gulf of Lyon",
                 "type": "port"
             }
@@ -1125,22 +957,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Corunna",
                 "dest": "Bilbao",
                 "type": "normal"
             },
             {
-                "origin": "Corunna",
                 "dest": "Valladolid",
                 "type": "normal"
             },
             {
-                "origin": "Corunna",
                 "dest": "Bay of Biscay",
                 "type": "port"
             },
             {
-                "origin": "Corunna",
                 "dest": "Atlantic Ocean",
                 "type": "port"
             }
@@ -1152,17 +980,14 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Valladolid",
                 "dest": "Corunna",
                 "type": "normal"
             },
             {
-                "origin": "Valladolid",
                 "dest": "Bilbao",
                 "type": "normal"
             },
             {
-                "origin": "Valladolid",
                 "dest": "Madrid",
                 "type": "normal"
             }
@@ -1174,22 +999,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Madrid",
                 "dest": "Valladolid",
                 "type": "normal"
             },
             {
-                "origin": "Madrid",
                 "dest": "Zaragoza",
                 "type": "normal"
             },
             {
-                "origin": "Madrid",
                 "dest": "Valencia",
                 "type": "normal"
             },
             {
-                "origin": "Madrid",
                 "dest": "C\u00f3rdoba",
                 "type": "normal"
             }
@@ -1201,17 +1022,14 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "C\u00f3rdoba",
                 "dest": "Madrid",
                 "type": "normal"
             },
             {
-                "origin": "C\u00f3rdoba",
                 "dest": "Granada",
                 "type": "normal"
             },
             {
-                "origin": "C\u00f3rdoba",
                 "dest": "Seville",
                 "type": "normal"
             }
@@ -1223,17 +1041,14 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Granada",
                 "dest": "C\u00f3rdoba",
                 "type": "normal"
             },
             {
-                "origin": "Granada",
                 "dest": "Cartagena",
                 "type": "normal"
             },
             {
-                "origin": "Granada",
                 "dest": "Gibraltar",
                 "type": "normal"
             }
@@ -1245,17 +1060,14 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Seville",
                 "dest": "C\u00f3rdoba",
                 "type": "normal"
             },
             {
-                "origin": "Seville",
                 "dest": "Gibraltar",
                 "type": "normal"
             },
             {
-                "origin": "Seville",
                 "dest": "Atlantic Ocean",
                 "type": "port"
             }
@@ -1267,22 +1079,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Gibraltar",
                 "dest": "Seville",
                 "type": "normal"
             },
             {
-                "origin": "Gibraltar",
                 "dest": "Granada",
                 "type": "normal"
             },
             {
-                "origin": "Gibraltar",
                 "dest": "Atlantic Ocean",
                 "type": "port"
             },
             {
-                "origin": "Gibraltar",
                 "dest": "Barbary Coast",
                 "type": "port"
             }
@@ -1294,22 +1102,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Bilbao",
                 "dest": "Navarre",
                 "type": "normal"
             },
             {
-                "origin": "Bilbao",
                 "dest": "Zaragoza",
                 "type": "normal"
             },
             {
-                "origin": "Bilbao",
                 "dest": "Valladolid",
                 "type": "normal"
             },
             {
-                "origin": "Bilbao",
                 "dest": "Corunna",
                 "type": "normal"
             }
@@ -1321,17 +1125,14 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Navarre",
                 "dest": "Bordeaux",
                 "type": "pass"
             },
             {
-                "origin": "Navarre",
                 "dest": "Bilbao",
                 "type": "normal"
             },
             {
-                "origin": "Navarre",
                 "dest": "Zaragoza",
                 "type": "normal"
             }
@@ -1343,22 +1144,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Zaragoza",
                 "dest": "Navarre",
                 "type": "normal"
             },
             {
-                "origin": "Zaragoza",
                 "dest": "Barcelona",
                 "type": "normal"
             },
             {
-                "origin": "Zaragoza",
                 "dest": "Madrid",
                 "type": "normal"
             },
             {
-                "origin": "Zaragoza",
                 "dest": "Bilbao",
                 "type": "normal"
             }
@@ -1370,22 +1167,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Valencia",
                 "dest": "Barcelona",
                 "type": "normal"
             },
             {
-                "origin": "Valencia",
                 "dest": "Gulf of Lyon",
                 "type": "port"
             },
             {
-                "origin": "Valencia",
                 "dest": "Cartagena",
                 "type": "normal"
             },
             {
-                "origin": "Valencia",
                 "dest": "Madrid",
                 "type": "normal"
             }
@@ -1397,22 +1190,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Cartagena",
                 "dest": "Valencia",
                 "type": "normal"
             },
             {
-                "origin": "Cartagena",
                 "dest": "Granada",
                 "type": "normal"
             },
             {
-                "origin": "Cartagena",
                 "dest": "Gulf of Lyon",
                 "type": "port"
             },
             {
-                "origin": "Cartagena",
                 "dest": "Barbary Coast",
                 "type": "port"
             }
@@ -1424,27 +1213,22 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Barcelona",
                 "dest": "Toulouse",
                 "type": "pass"
             },
             {
-                "origin": "Barcelona",
                 "dest": "Avignon",
                 "type": "pass"
             },
             {
-                "origin": "Barcelona",
                 "dest": "Gulf of Lyon",
                 "type": "port"
             },
             {
-                "origin": "Barcelona",
                 "dest": "Valencia",
                 "type": "normal"
             },
             {
-                "origin": "Barcelona",
                 "dest": "Zaragoza",
                 "type": "normal"
             }
@@ -1456,22 +1240,18 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "M\u00fcnster",
                 "dest": "Bremen",
                 "type": "normal"
             },
             {
-                "origin": "M\u00fcnster",
                 "dest": "Kassel",
                 "type": "normal"
             },
             {
-                "origin": "M\u00fcnster",
                 "dest": "Cologne",
                 "type": "normal"
             },
             {
-                "origin": "M\u00fcnster",
                 "dest": "Amsterdam",
                 "type": "normal"
             }
@@ -1483,22 +1263,18 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Bremen",
                 "dest": "Hamburg",
                 "type": "normal"
             },
             {
-                "origin": "Bremen",
                 "dest": "Brunswick",
                 "type": "normal"
             },
             {
-                "origin": "Bremen",
                 "dest": "M\u00fcnster",
                 "type": "normal"
             },
             {
-                "origin": "Bremen",
                 "dest": "North Sea",
                 "type": "port"
             }
@@ -1510,22 +1286,18 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Hamburg",
                 "dest": "Bremen",
                 "type": "normal"
             },
             {
-                "origin": "Hamburg",
                 "dest": "L\u00fcbeck",
                 "type": "normal"
             },
             {
-                "origin": "Hamburg",
                 "dest": "Brunswick",
                 "type": "normal"
             },
             {
-                "origin": "Hamburg",
                 "dest": "North Sea",
                 "type": "port"
             }
@@ -1537,27 +1309,22 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "L\u00fcbeck",
                 "dest": "Hamburg",
                 "type": "normal"
             },
             {
-                "origin": "L\u00fcbeck",
                 "dest": "Stettin",
                 "type": "normal"
             },
             {
-                "origin": "L\u00fcbeck",
                 "dest": "Brandenburg",
                 "type": "normal"
             },
             {
-                "origin": "L\u00fcbeck",
                 "dest": "Magdeburg",
                 "type": "normal"
             },
             {
-                "origin": "L\u00fcbeck",
                 "dest": "Baltic Sea",
                 "type": "port"
             }
@@ -1569,17 +1336,14 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Stettin",
                 "dest": "L\u00fcbeck",
                 "type": "normal"
             },
             {
-                "origin": "Stettin",
                 "dest": "Brandenburg",
                 "type": "normal"
             },
             {
-                "origin": "Stettin",
                 "dest": "Baltic Sea",
                 "type": "port"
             }
@@ -1591,22 +1355,18 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Brunswick",
                 "dest": "Bremen",
                 "type": "normal"
             },
             {
-                "origin": "Brunswick",
                 "dest": "Hamburg",
                 "type": "normal"
             },
             {
-                "origin": "Brunswick",
                 "dest": "Magdeburg",
                 "type": "normal"
             },
             {
-                "origin": "Brunswick",
                 "dest": "Kassel",
                 "type": "normal"
             }
@@ -1618,27 +1378,22 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Magdeburg",
                 "dest": "L\u00fcbeck",
                 "type": "normal"
             },
             {
-                "origin": "Magdeburg",
                 "dest": "Brandenburg",
                 "type": "normal"
             },
             {
-                "origin": "Magdeburg",
                 "dest": "Wittenberg",
                 "type": "normal"
             },
             {
-                "origin": "Magdeburg",
                 "dest": "Erfurt",
                 "type": "normal"
             },
             {
-                "origin": "Magdeburg",
                 "dest": "Brunswick",
                 "type": "normal"
             }
@@ -1650,27 +1405,22 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Brandenburg",
                 "dest": "Stettin",
                 "type": "normal"
             },
             {
-                "origin": "Brandenburg",
                 "dest": "Breslau",
                 "type": "normal"
             },
             {
-                "origin": "Brandenburg",
                 "dest": "Wittenberg",
                 "type": "normal"
             },
             {
-                "origin": "Brandenburg",
                 "dest": "Magdeburg",
                 "type": "normal"
             },
             {
-                "origin": "Brandenburg",
                 "dest": "L\u00fcbeck",
                 "type": "normal"
             }
@@ -1682,27 +1432,22 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Wittenberg",
                 "dest": "Brandenburg",
                 "type": "normal"
             },
             {
-                "origin": "Wittenberg",
                 "dest": "Breslau",
                 "type": "normal"
             },
             {
-                "origin": "Wittenberg",
                 "dest": "Prague",
                 "type": "normal"
             },
             {
-                "origin": "Wittenberg",
                 "dest": "Leipzig",
                 "type": "normal"
             },
             {
-                "origin": "Wittenberg",
                 "dest": "Magdeburg",
                 "type": "normal"
             }
@@ -1714,17 +1459,14 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Cologne",
                 "dest": "M\u00fcnster",
                 "type": "normal"
             },
             {
-                "origin": "Cologne",
                 "dest": "Mainz",
                 "type": "normal"
             },
             {
-                "origin": "Cologne",
                 "dest": "Liege",
                 "type": "normal"
             }
@@ -1736,27 +1478,22 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Kassel",
                 "dest": "M\u00fcnster",
                 "type": "normal"
             },
             {
-                "origin": "Kassel",
                 "dest": "Brunswick",
                 "type": "normal"
             },
             {
-                "origin": "Kassel",
                 "dest": "Erfurt",
                 "type": "normal"
             },
             {
-                "origin": "Kassel",
                 "dest": "Nuremberg",
                 "type": "normal"
             },
             {
-                "origin": "Kassel",
                 "dest": "Mainz",
                 "type": "normal"
             }
@@ -1768,17 +1505,14 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Erfurt",
                 "dest": "Magdeburg",
                 "type": "normal"
             },
             {
-                "origin": "Erfurt",
                 "dest": "Leipzig",
                 "type": "normal"
             },
             {
-                "origin": "Erfurt",
                 "dest": "Kassel",
                 "type": "normal"
             }
@@ -1790,22 +1524,18 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Leipzig",
                 "dest": "Wittenberg",
                 "type": "normal"
             },
             {
-                "origin": "Leipzig",
                 "dest": "Prague",
                 "type": "normal"
             },
             {
-                "origin": "Leipzig",
                 "dest": "Nuremberg",
                 "type": "normal"
             },
             {
-                "origin": "Leipzig",
                 "dest": "Erfurt",
                 "type": "normal"
             }
@@ -1817,17 +1547,14 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Trier",
                 "dest": "Mainz",
                 "type": "normal"
             },
             {
-                "origin": "Trier",
                 "dest": "Metz",
                 "type": "normal"
             },
             {
-                "origin": "Trier",
                 "dest": "Liege",
                 "type": "normal"
             }
@@ -1839,27 +1566,22 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Mainz",
                 "dest": "Kassel",
                 "type": "normal"
             },
             {
-                "origin": "Mainz",
                 "dest": "Nuremberg",
                 "type": "normal"
             },
             {
-                "origin": "Mainz",
                 "dest": "Worms",
                 "type": "normal"
             },
             {
-                "origin": "Mainz",
                 "dest": "Trier",
                 "type": "normal"
             },
             {
-                "origin": "Mainz",
                 "dest": "Cologne",
                 "type": "normal"
             }
@@ -1871,32 +1593,26 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Nuremberg",
                 "dest": "Leipzig",
                 "type": "normal"
             },
             {
-                "origin": "Nuremberg",
                 "dest": "Regensburg",
                 "type": "normal"
             },
             {
-                "origin": "Nuremberg",
                 "dest": "Augsburg",
                 "type": "normal"
             },
             {
-                "origin": "Nuremberg",
                 "dest": "Worms",
                 "type": "normal"
             },
             {
-                "origin": "Nuremberg",
                 "dest": "Mainz",
                 "type": "normal"
             },
             {
-                "origin": "Nuremberg",
                 "dest": "Kassel",
                 "type": "normal"
             }
@@ -1908,22 +1624,18 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Regensburg",
                 "dest": "Nuremberg",
                 "type": "normal"
             },
             {
-                "origin": "Regensburg",
                 "dest": "Linz",
                 "type": "normal"
             },
             {
-                "origin": "Regensburg",
                 "dest": "Salzburg",
                 "type": "normal"
             },
             {
-                "origin": "Regensburg",
                 "dest": "Augsburg",
                 "type": "normal"
             }
@@ -1935,22 +1647,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Linz",
                 "dest": "Regensburg",
                 "type": "normal"
             },
             {
-                "origin": "Linz",
                 "dest": "Prague",
                 "type": "normal"
             },
             {
-                "origin": "Linz",
                 "dest": "Vienna",
                 "type": "normal"
             },
             {
-                "origin": "Linz",
                 "dest": "Salzburg",
                 "type": "normal"
             }
@@ -1962,22 +1670,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Vienna",
                 "dest": "Brunn",
                 "type": "normal"
             },
             {
-                "origin": "Vienna",
                 "dest": "Pressburg",
                 "type": "normal"
             },
             {
-                "origin": "Vienna",
                 "dest": "Graz",
                 "type": "normal"
             },
             {
-                "origin": "Vienna",
                 "dest": "Linz",
                 "type": "normal"
             }
@@ -1989,22 +1693,18 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Strasburg",
                 "dest": "Worms",
                 "type": "normal"
             },
             {
-                "origin": "Strasburg",
                 "dest": "Basel",
                 "type": "normal"
             },
             {
-                "origin": "Strasburg",
                 "dest": "Besan\u00e7on",
                 "type": "normal"
             },
             {
-                "origin": "Strasburg",
                 "dest": "Metz",
                 "type": "normal"
             }
@@ -2016,22 +1716,18 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Worms",
                 "dest": "Mainz",
                 "type": "normal"
             },
             {
-                "origin": "Worms",
                 "dest": "Nuremberg",
                 "type": "normal"
             },
             {
-                "origin": "Worms",
                 "dest": "Augsburg",
                 "type": "normal"
             },
             {
-                "origin": "Worms",
                 "dest": "Strasburg",
                 "type": "normal"
             }
@@ -2043,27 +1739,22 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Augsburg",
                 "dest": "Nuremberg",
                 "type": "normal"
             },
             {
-                "origin": "Augsburg",
                 "dest": "Regensburg",
                 "type": "normal"
             },
             {
-                "origin": "Augsburg",
                 "dest": "Salzburg",
                 "type": "normal"
             },
             {
-                "origin": "Augsburg",
                 "dest": "Innsbruck",
                 "type": "pass"
             },
             {
-                "origin": "Augsburg",
                 "dest": "Worms",
                 "type": "normal"
             }
@@ -2075,22 +1766,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Innsbruck",
                 "dest": "Augsburg",
                 "type": "pass"
             },
             {
-                "origin": "Innsbruck",
                 "dest": "Salzburg",
                 "type": "normal"
             },
             {
-                "origin": "Innsbruck",
                 "dest": "Trent",
                 "type": "pass"
             },
             {
-                "origin": "Innsbruck",
                 "dest": "Z\u00fcrich",
                 "type": "normal"
             }
@@ -2102,27 +1789,22 @@
         "home_power": "protestant",
         "connections": [
             {
-                "origin": "Salzburg",
                 "dest": "Regensburg",
                 "type": "normal"
             },
             {
-                "origin": "Salzburg",
                 "dest": "Linz",
                 "type": "normal"
             },
             {
-                "origin": "Salzburg",
                 "dest": "Graz",
                 "type": "pass"
             },
             {
-                "origin": "Salzburg",
                 "dest": "Innsbruck",
                 "type": "normal"
             },
             {
-                "origin": "Salzburg",
                 "dest": "Augsburg",
                 "type": "normal"
             }
@@ -2134,27 +1816,22 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Graz",
                 "dest": "Vienna",
                 "type": "normal"
             },
             {
-                "origin": "Graz",
                 "dest": "Mohacs",
                 "type": "normal"
             },
             {
-                "origin": "Graz",
                 "dest": "Agram",
                 "type": "normal"
             },
             {
-                "origin": "Graz",
                 "dest": "Trieste",
                 "type": "normal"
             },
             {
-                "origin": "Graz",
                 "dest": "Salzburg",
                 "type": "pass"
             }
@@ -2166,22 +1843,18 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Basel",
                 "dest": "Strasburg",
                 "type": "normal"
             },
             {
-                "origin": "Basel",
                 "dest": "Z\u00fcrich",
                 "type": "normal"
             },
             {
-                "origin": "Basel",
                 "dest": "Geneva",
                 "type": "normal"
             },
             {
-                "origin": "Basel",
                 "dest": "Besan\u00e7on",
                 "type": "normal"
             }
@@ -2193,12 +1866,10 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Z\u00fcrich",
                 "dest": "Basel",
                 "type": "normal"
             },
             {
-                "origin": "Z\u00fcrich",
                 "dest": "Innsbruck",
                 "type": "normal"
             }
@@ -2210,27 +1881,22 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Turin",
                 "dest": "Geneva",
                 "type": "pass"
             },
             {
-                "origin": "Turin",
                 "dest": "Milan",
                 "type": "normal"
             },
             {
-                "origin": "Turin",
                 "dest": "Pavia",
                 "type": "normal"
             },
             {
-                "origin": "Turin",
                 "dest": "Genoa",
                 "type": "normal"
             },
             {
-                "origin": "Turin",
                 "dest": "Grenoble",
                 "type": "pass"
             }
@@ -2242,22 +1908,18 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Milan",
                 "dest": "Turin",
                 "type": "normal"
             },
             {
-                "origin": "Milan",
                 "dest": "Trent",
                 "type": "normal"
             },
             {
-                "origin": "Milan",
                 "dest": "Modena",
                 "type": "normal"
             },
             {
-                "origin": "Milan",
                 "dest": "Pavia",
                 "type": "normal"
             }
@@ -2269,22 +1931,18 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Trent",
                 "dest": "Innsbruck",
                 "type": "pass"
             },
             {
-                "origin": "Trent",
                 "dest": "Venice",
                 "type": "normal"
             },
             {
-                "origin": "Trent",
                 "dest": "Modena",
                 "type": "normal"
             },
             {
-                "origin": "Trent",
                 "dest": "Milan",
                 "type": "normal"
             }
@@ -2296,27 +1954,22 @@
         "home_power": "venice",
         "connections": [
             {
-                "origin": "Venice",
                 "dest": "Trent",
                 "type": "normal"
             },
             {
-                "origin": "Venice",
                 "dest": "Trieste",
                 "type": "normal"
             },
             {
-                "origin": "Venice",
                 "dest": "Adriatic Sea",
                 "type": "port"
             },
             {
-                "origin": "Venice",
                 "dest": "Ravenna",
                 "type": "normal"
             },
             {
-                "origin": "Venice",
                 "dest": "Modena",
                 "type": "normal"
             }
@@ -2328,27 +1981,22 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Trieste",
                 "dest": "Graz",
                 "type": "normal"
             },
             {
-                "origin": "Trieste",
                 "dest": "Agram",
                 "type": "normal"
             },
             {
-                "origin": "Trieste",
                 "dest": "Zara",
                 "type": "normal"
             },
             {
-                "origin": "Trieste",
                 "dest": "Adriatic Sea",
                 "type": "port"
             },
             {
-                "origin": "Trieste",
                 "dest": "Venice",
                 "type": "normal"
             }
@@ -2360,22 +2008,18 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Pavia",
                 "dest": "Milan",
                 "type": "normal"
             },
             {
-                "origin": "Pavia",
                 "dest": "Modena",
                 "type": "normal"
             },
             {
-                "origin": "Pavia",
                 "dest": "Genoa",
                 "type": "normal"
             },
             {
-                "origin": "Pavia",
                 "dest": "Turin",
                 "type": "normal"
             }
@@ -2387,32 +2031,26 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Modena",
                 "dest": "Trent",
                 "type": "normal"
             },
             {
-                "origin": "Modena",
                 "dest": "Venice",
                 "type": "normal"
             },
             {
-                "origin": "Modena",
                 "dest": "Ravenna",
                 "type": "normal"
             },
             {
-                "origin": "Modena",
                 "dest": "Florence",
                 "type": "normal"
             },
             {
-                "origin": "Modena",
                 "dest": "Pavia",
                 "type": "normal"
             },
             {
-                "origin": "Modena",
                 "dest": "Milan",
                 "type": "normal"
             }
@@ -2424,22 +2062,18 @@
         "home_power": "papacy",
         "connections": [
             {
-                "origin": "Ravenna",
                 "dest": "Venice",
                 "type": "normal"
             },
             {
-                "origin": "Ravenna",
                 "dest": "Ancona",
                 "type": "normal"
             },
             {
-                "origin": "Ravenna",
                 "dest": "Modena",
                 "type": "normal"
             },
             {
-                "origin": "Ravenna",
                 "dest": "Adriatic Sea",
                 "type": "port"
             }
@@ -2451,37 +2085,30 @@
         "home_power": "genoa",
         "connections": [
             {
-                "origin": "Genoa",
                 "dest": "Turin",
                 "type": "normal"
             },
             {
-                "origin": "Genoa",
                 "dest": "Pavia",
                 "type": "normal"
             },
             {
-                "origin": "Genoa",
                 "dest": "Florence",
                 "type": "normal"
             },
             {
-                "origin": "Genoa",
                 "dest": "Siena",
                 "type": "normal"
             },
             {
-                "origin": "Genoa",
                 "dest": "Tyrrhenian Sea",
                 "type": "port"
             },
             {
-                "origin": "Genoa",
                 "dest": "Gulf of Lyon",
                 "type": "port"
             },
             {
-                "origin": "Genoa",
                 "dest": "Nice",
                 "type": "pass"
             }
@@ -2493,12 +2120,10 @@
         "home_power": "genoa",
         "connections": [
             {
-                "origin": "Bastia",
                 "dest": "Gulf of Lyon",
                 "type": "port"
             },
             {
-                "origin": "Bastia",
                 "dest": "Tyrrhenian Sea",
                 "type": "port"
             }
@@ -2510,17 +2135,14 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Florence",
                 "dest": "Modena",
                 "type": "normal"
             },
             {
-                "origin": "Florence",
                 "dest": "Siena",
                 "type": "normal"
             },
             {
-                "origin": "Florence",
                 "dest": "Genoa",
                 "type": "normal"
             }
@@ -2532,17 +2154,14 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Siena",
                 "dest": "Genoa",
                 "type": "normal"
             },
             {
-                "origin": "Siena",
                 "dest": "Florence",
                 "type": "normal"
             },
             {
-                "origin": "Siena",
                 "dest": "Rome",
                 "type": "normal"
             }
@@ -2554,22 +2173,18 @@
         "home_power": "papacy",
         "connections": [
             {
-                "origin": "Ancona",
                 "dest": "Ravenna",
                 "type": "normal"
             },
             {
-                "origin": "Ancona",
                 "dest": "Cerignola",
                 "type": "normal"
             },
             {
-                "origin": "Ancona",
                 "dest": "Rome",
                 "type": "normal"
             },
             {
-                "origin": "Ancona",
                 "dest": "Adriatic Sea",
                 "type": "port"
             }
@@ -2581,27 +2196,22 @@
         "home_power": "papacy",
         "connections": [
             {
-                "origin": "Rome",
                 "dest": "Ancona",
                 "type": "normal"
             },
             {
-                "origin": "Rome",
                 "dest": "Cerignola",
                 "type": "normal"
             },
             {
-                "origin": "Rome",
                 "dest": "Naples",
                 "type": "normal"
             },
             {
-                "origin": "Rome",
                 "dest": "Siena",
                 "type": "normal"
             },
             {
-                "origin": "Rome",
                 "dest": "Tyrrhenian Sea",
                 "type": "port"
             }
@@ -2613,17 +2223,14 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Cerignola",
                 "dest": "Ancona",
                 "type": "normal"
             },
             {
-                "origin": "Cerignola",
                 "dest": "Taranto",
                 "type": "normal"
             },
             {
-                "origin": "Cerignola",
                 "dest": "Rome",
                 "type": "normal"
             }
@@ -2635,22 +2242,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Naples",
                 "dest": "Rome",
                 "type": "normal"
             },
             {
-                "origin": "Naples",
                 "dest": "Taranto",
                 "type": "normal"
             },
             {
-                "origin": "Naples",
                 "dest": "Messina",
                 "type": "normal"
             },
             {
-                "origin": "Naples",
                 "dest": "Tyrrhenian Sea",
                 "type": "port"
             }
@@ -2662,22 +2265,18 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Taranto",
                 "dest": "Cerignola",
                 "type": "normal"
             },
             {
-                "origin": "Taranto",
                 "dest": "Ionian Sea",
                 "type": "port"
             },
             {
-                "origin": "Taranto",
                 "dest": "Messina",
                 "type": "normal"
             },
             {
-                "origin": "Taranto",
                 "dest": "Naples",
                 "type": "normal"
             }
@@ -2689,12 +2288,10 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Palermo",
                 "dest": "Tyrrhenian Sea",
                 "type": "port"
             },
             {
-                "origin": "Palermo",
                 "dest": "Messina",
                 "type": "normal"
             }
@@ -2706,27 +2303,22 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Messina",
                 "dest": "Palermo",
                 "type": "normal"
             },
             {
-                "origin": "Messina",
                 "dest": "Naples",
                 "type": "normal"
             },
             {
-                "origin": "Messina",
                 "dest": "Taranto",
                 "type": "normal"
             },
             {
-                "origin": "Messina",
                 "dest": "Tyrrhenian Sea",
                 "type": "port"
             },
             {
-                "origin": "Messina",
                 "dest": "Ionian Sea",
                 "type": "port"
             }
@@ -2738,12 +2330,10 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Palma",
                 "dest": "Gulf of Lyon",
                 "type": "port"
             },
             {
-                "origin": "Palma",
                 "dest": "Barbary Coast",
                 "type": "port"
             }
@@ -2755,12 +2345,10 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Cagliari",
                 "dest": "Tyrrhenian Sea",
                 "type": "port"
             },
             {
-                "origin": "Cagliari",
                 "dest": "Barbary Coast",
                 "type": "port"
             }
@@ -2772,7 +2360,6 @@
         "home_power": "hapsburg/ottoman",
         "connections": [
             {
-                "origin": "Oran",
                 "dest": "Barbary Coast",
                 "type": "port"
             }
@@ -2784,7 +2371,6 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Algiers",
                 "dest": "Barbary Coast",
                 "type": "port"
             }
@@ -2796,12 +2382,10 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Tunis",
                 "dest": "Barbary Coast",
                 "type": "port"
             },
             {
-                "origin": "Tunis",
                 "dest": "North African Coast",
                 "type": "port"
             }
@@ -2813,12 +2397,10 @@
         "home_power": "hapsburg",
         "connections": [
             {
-                "origin": "Malta",
                 "dest": "Ionian Sea",
                 "type": "port"
             },
             {
-                "origin": "Malta",
                 "dest": "North African Coast",
                 "type": "port"
             }
@@ -2830,7 +2412,6 @@
         "home_power": "hapsburg/ottoman",
         "connections": [
             {
-                "origin": "Tripoli",
                 "dest": "North African Coast",
                 "type": "port"
             }
@@ -2842,17 +2423,14 @@
         "home_power": "hungary",
         "connections": [
             {
-                "origin": "Breslau",
                 "dest": "Brandenburg",
                 "type": "normal"
             },
             {
-                "origin": "Breslau",
                 "dest": "Wittenberg",
                 "type": "normal"
             },
             {
-                "origin": "Breslau",
                 "dest": "Brunn",
                 "type": "normal"
             }
@@ -2864,22 +2442,18 @@
         "home_power": "hungary",
         "connections": [
             {
-                "origin": "Prague",
                 "dest": "Wittenberg",
                 "type": "normal"
             },
             {
-                "origin": "Prague",
                 "dest": "Brunn",
                 "type": "normal"
             },
             {
-                "origin": "Prague",
                 "dest": "Linz",
                 "type": "normal"
             },
             {
-                "origin": "Prague",
                 "dest": "Leipzig",
                 "type": "normal"
             }
@@ -2891,17 +2465,14 @@
         "home_power": "hungary",
         "connections": [
             {
-                "origin": "Brunn",
                 "dest": "Breslau",
                 "type": "normal"
             },
             {
-                "origin": "Brunn",
                 "dest": "Vienna",
                 "type": "normal"
             },
             {
-                "origin": "Brunn",
                 "dest": "Prague",
                 "type": "normal"
             }
@@ -2913,12 +2484,10 @@
         "home_power": "hungary",
         "connections": [
             {
-                "origin": "Pressburg",
                 "dest": "Vienna",
                 "type": "normal"
             },
             {
-                "origin": "Pressburg",
                 "dest": "Buda",
                 "type": "normal"
             }
@@ -2930,17 +2499,14 @@
         "home_power": "hungary",
         "connections": [
             {
-                "origin": "Buda",
                 "dest": "Pressburg",
                 "type": "normal"
             },
             {
-                "origin": "Buda",
                 "dest": "Szegedin",
                 "type": "normal"
             },
             {
-                "origin": "Buda",
                 "dest": "Mohacs",
                 "type": "normal"
             }
@@ -2952,17 +2518,14 @@
         "home_power": "hungary",
         "connections": [
             {
-                "origin": "Szegedin",
                 "dest": "Buda",
                 "type": "normal"
             },
             {
-                "origin": "Szegedin",
                 "dest": "Nicopolis",
                 "type": "pass"
             },
             {
-                "origin": "Szegedin",
                 "dest": "Belgrade",
                 "type": "normal"
             }
@@ -2974,27 +2537,22 @@
         "home_power": "hungary",
         "connections": [
             {
-                "origin": "Agram",
                 "dest": "Graz",
                 "type": "normal"
             },
             {
-                "origin": "Agram",
                 "dest": "Mohacs",
                 "type": "normal"
             },
             {
-                "origin": "Agram",
                 "dest": "Belgrade",
                 "type": "normal"
             },
             {
-                "origin": "Agram",
                 "dest": "Zara",
                 "type": "pass"
             },
             {
-                "origin": "Agram",
                 "dest": "Trieste",
                 "type": "normal"
             }
@@ -3006,22 +2564,18 @@
         "home_power": "hungary",
         "connections": [
             {
-                "origin": "Mohacs",
                 "dest": "Buda",
                 "type": "normal"
             },
             {
-                "origin": "Mohacs",
                 "dest": "Belgrade",
                 "type": "normal"
             },
             {
-                "origin": "Mohacs",
                 "dest": "Agram",
                 "type": "normal"
             },
             {
-                "origin": "Mohacs",
                 "dest": "Graz",
                 "type": "normal"
             }
@@ -3033,32 +2587,26 @@
         "home_power": "hungary",
         "connections": [
             {
-                "origin": "Belgrade",
                 "dest": "Szegedin",
                 "type": "normal"
             },
             {
-                "origin": "Belgrade",
                 "dest": "Nicopolis",
                 "type": "normal"
             },
             {
-                "origin": "Belgrade",
                 "dest": "Nezh",
                 "type": "normal"
             },
             {
-                "origin": "Belgrade",
                 "dest": "Ragusa",
                 "type": "pass"
             },
             {
-                "origin": "Belgrade",
                 "dest": "Agram",
                 "type": "normal"
             },
             {
-                "origin": "Belgrade",
                 "dest": "Mohacs",
                 "type": "normal"
             }
@@ -3070,17 +2618,14 @@
         "home_power": "venice",
         "connections": [
             {
-                "origin": "Zara",
                 "dest": "Trieste",
                 "type": "normal"
             },
             {
-                "origin": "Zara",
                 "dest": "Agram",
                 "type": "pass"
             },
             {
-                "origin": "Zara",
                 "dest": "Ragusa",
                 "type": "normal"
             }
@@ -3092,22 +2637,18 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Ragusa",
                 "dest": "Zara",
                 "type": "normal"
             },
             {
-                "origin": "Ragusa",
                 "dest": "Belgrade",
                 "type": "pass"
             },
             {
-                "origin": "Ragusa",
                 "dest": "Scutari",
                 "type": "normal"
             },
             {
-                "origin": "Ragusa",
                 "dest": "Adriatic Sea",
                 "type": "port"
             }
@@ -3119,12 +2660,10 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Bucharest",
                 "dest": "Nicopolis",
                 "type": "normal"
             },
             {
-                "origin": "Bucharest",
                 "dest": "Varna",
                 "type": "normal"
             }
@@ -3136,22 +2675,18 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Nicopolis",
                 "dest": "Szegedin",
                 "type": "pass"
             },
             {
-                "origin": "Nicopolis",
                 "dest": "Belgrade",
                 "type": "normal"
             },
             {
-                "origin": "Nicopolis",
                 "dest": "Bucharest",
                 "type": "normal"
             },
             {
-                "origin": "Nicopolis",
                 "dest": "Sofia",
                 "type": "pass"
             }
@@ -3163,22 +2698,18 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Varna",
                 "dest": "Bucharest",
                 "type": "normal"
             },
             {
-                "origin": "Varna",
                 "dest": "Black Sea",
                 "type": "port"
             },
             {
-                "origin": "Varna",
                 "dest": "Istanbul",
                 "type": "normal"
             },
             {
-                "origin": "Varna",
                 "dest": "Edirne",
                 "type": "normal"
             }
@@ -3190,17 +2721,14 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Nezh",
                 "dest": "Belgrade",
                 "type": "normal"
             },
             {
-                "origin": "Nezh",
                 "dest": "Scutari",
                 "type": "pass"
             },
             {
-                "origin": "Nezh",
                 "dest": "Sofia",
                 "type": "normal"
             }
@@ -3212,22 +2740,18 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Sofia",
                 "dest": "Nezh",
                 "type": "normal"
             },
             {
-                "origin": "Sofia",
                 "dest": "Nicopolis",
                 "type": "pass"
             },
             {
-                "origin": "Sofia",
                 "dest": "Edirne",
                 "type": "normal"
             },
             {
-                "origin": "Sofia",
                 "dest": "Salonika",
                 "type": "pass"
             }
@@ -3239,22 +2763,18 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Edirne",
                 "dest": "Sofia",
                 "type": "normal"
             },
             {
-                "origin": "Edirne",
                 "dest": "Varna",
                 "type": "normal"
             },
             {
-                "origin": "Edirne",
                 "dest": "Istanbul",
                 "type": "normal"
             },
             {
-                "origin": "Edirne",
                 "dest": "Salonika",
                 "type": "normal"
             }
@@ -3266,22 +2786,18 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Istanbul",
                 "dest": "Varna",
                 "type": "normal"
             },
             {
-                "origin": "Istanbul",
                 "dest": "Edirne",
                 "type": "normal"
             },
             {
-                "origin": "Istanbul",
                 "dest": "Black Sea",
                 "type": "port"
             },
             {
-                "origin": "Istanbul",
                 "dest": "Aegean Sea",
                 "type": "port"
             }
@@ -3293,22 +2809,18 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Scutari",
                 "dest": "Ragusa",
                 "type": "normal"
             },
             {
-                "origin": "Scutari",
                 "dest": "Nezh",
                 "type": "pass"
             },
             {
-                "origin": "Scutari",
                 "dest": "Durazzo",
                 "type": "normal"
             },
             {
-                "origin": "Scutari",
                 "dest": "Adriatic Sea",
                 "type": "port"
             }
@@ -3320,17 +2832,14 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Durazzo",
                 "dest": "Scutari",
                 "type": "normal"
             },
             {
-                "origin": "Durazzo",
                 "dest": "Larissa",
                 "type": "pass"
             },
             {
-                "origin": "Durazzo",
                 "dest": "Adriatic Sea",
                 "type": "port"
             }
@@ -3342,22 +2851,18 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Salonika",
                 "dest": "Sofia",
                 "type": "pass"
             },
             {
-                "origin": "Salonika",
                 "dest": "Edirne",
                 "type": "normal"
             },
             {
-                "origin": "Salonika",
                 "dest": "Larissa",
                 "type": "normal"
             },
             {
-                "origin": "Salonika",
                 "dest": "Aegean Sea",
                 "type": "port"
             }
@@ -3369,22 +2874,18 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Larissa",
                 "dest": "Salonika",
                 "type": "normal"
             },
             {
-                "origin": "Larissa",
                 "dest": "Athens",
                 "type": "normal"
             },
             {
-                "origin": "Larissa",
                 "dest": "Lepanto",
                 "type": "normal"
             },
             {
-                "origin": "Larissa",
                 "dest": "Durazzo",
                 "type": "pass"
             }
@@ -3396,17 +2897,14 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Lepanto",
                 "dest": "Larissa",
                 "type": "normal"
             },
             {
-                "origin": "Lepanto",
                 "dest": "Athens",
                 "type": "normal"
             },
             {
-                "origin": "Lepanto",
                 "dest": "Ionian Sea",
                 "type": "port"
             }
@@ -3418,22 +2916,18 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Athens",
                 "dest": "Larissa",
                 "type": "normal"
             },
             {
-                "origin": "Athens",
                 "dest": "Lepanto",
                 "type": "normal"
             },
             {
-                "origin": "Athens",
                 "dest": "Coron",
                 "type": "normal"
             },
             {
-                "origin": "Athens",
                 "dest": "Aegean Sea",
                 "type": "port"
             }
@@ -3445,17 +2939,14 @@
         "home_power": "ottoman",
         "connections": [
             {
-                "origin": "Coron",
                 "dest": "Athens",
                 "type": "normal"
             },
             {
-                "origin": "Coron",
                 "dest": "Ionian Sea",
                 "type": "port"
             },
             {
-                "origin": "Coron",
                 "dest": "Aegean Sea",
                 "type": "port"
             }
@@ -3467,12 +2958,10 @@
         "home_power": "venice",
         "connections": [
             {
-                "origin": "Corfu",
                 "dest": "Adriatic Sea",
                 "type": "port"
             },
             {
-                "origin": "Corfu",
                 "dest": "Ionian Sea",
                 "type": "port"
             }
@@ -3484,12 +2973,10 @@
         "home_power": "venice",
         "connections": [
             {
-                "origin": "Candia",
                 "dest": "Aegean Sea",
                 "type": "port"
             },
             {
-                "origin": "Candia",
                 "dest": "North African Coast",
                 "type": "port"
             }
@@ -3501,12 +2988,10 @@
         "home_power": "independent",
         "connections": [
             {
-                "origin": "Rhodes",
                 "dest": "Aegean Sea",
                 "type": "port"
             },
             {
-                "origin": "Rhodes",
                 "dest": "North African Coast",
                 "type": "port"
             }
@@ -3518,27 +3003,22 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "Irish Sea",
                 "dest": "Glasgow",
                 "type": "port"
             },
             {
-                "origin": "Irish Sea",
                 "dest": "Bristol",
                 "type": "port"
             },
             {
-                "origin": "Irish Sea",
                 "dest": "English Channel",
                 "type": "sea"
             },
             {
-                "origin": "Irish Sea",
                 "dest": "North Sea",
                 "type": "sea"
             },
             {
-                "origin": "Irish Sea",
                 "dest": "Bay of Biscay",
                 "type": "sea"
             }
@@ -3550,57 +3030,46 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "North Sea",
                 "dest": "Edinburgh",
                 "type": "port"
             },
             {
-                "origin": "North Sea",
                 "dest": "Berwick",
                 "type": "port"
             },
             {
-                "origin": "North Sea",
                 "dest": "Norwich",
                 "type": "port"
             },
             {
-                "origin": "North Sea",
                 "dest": "London",
                 "type": "port"
             },
             {
-                "origin": "North Sea",
                 "dest": "Calais",
                 "type": "port"
             },
             {
-                "origin": "North Sea",
                 "dest": "Antwerp",
                 "type": "port"
             },
             {
-                "origin": "North Sea",
                 "dest": "Amsterdam",
                 "type": "port"
             },
             {
-                "origin": "North Sea",
                 "dest": "Bremen",
                 "type": "port"
             },
             {
-                "origin": "North Sea",
                 "dest": "Hamburg",
                 "type": "port"
             },
             {
-                "origin": "North Sea",
                 "dest": "English Channel",
                 "type": "sea"
             },
             {
-                "origin": "North Sea",
                 "dest": "Irish Sea",
                 "type": "sea"
             }
@@ -3612,12 +3081,10 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "Baltic Sea",
                 "dest": "L\u00fcbeck",
                 "type": "port"
             },
             {
-                "origin": "Baltic Sea",
                 "dest": "Stettin",
                 "type": "port"
             }
@@ -3629,47 +3096,38 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "English Channel",
                 "dest": "Plymouth",
                 "type": "port"
             },
             {
-                "origin": "English Channel",
                 "dest": "Portsmouth",
                 "type": "port"
             },
             {
-                "origin": "English Channel",
                 "dest": "Calais",
                 "type": "port"
             },
             {
-                "origin": "English Channel",
                 "dest": "Boulogne",
                 "type": "port"
             },
             {
-                "origin": "English Channel",
                 "dest": "Rouen",
                 "type": "port"
             },
             {
-                "origin": "English Channel",
                 "dest": "Brest",
                 "type": "port"
             },
             {
-                "origin": "English Channel",
                 "dest": "North Sea",
                 "type": "sea"
             },
             {
-                "origin": "English Channel",
                 "dest": "Irish Sea",
                 "type": "sea"
             },
             {
-                "origin": "English Channel",
                 "dest": "Bay of Biscay",
                 "type": "sea"
             }
@@ -3681,37 +3139,30 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "Bay of Biscay",
                 "dest": "Brest",
                 "type": "port"
             },
             {
-                "origin": "Bay of Biscay",
                 "dest": "Nantes",
                 "type": "port"
             },
             {
-                "origin": "Bay of Biscay",
                 "dest": "Bordeaux",
                 "type": "port"
             },
             {
-                "origin": "Bay of Biscay",
                 "dest": "Corunna",
                 "type": "port"
             },
             {
-                "origin": "Bay of Biscay",
                 "dest": "Irish Sea",
                 "type": "sea"
             },
             {
-                "origin": "Bay of Biscay",
                 "dest": "English Channel",
                 "type": "sea"
             },
             {
-                "origin": "Bay of Biscay",
                 "dest": "Atlantic Ocean",
                 "type": "sea"
             }
@@ -3723,27 +3174,22 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "Atlantic Ocean",
                 "dest": "Corunna",
                 "type": "port"
             },
             {
-                "origin": "Atlantic Ocean",
                 "dest": "Seville",
                 "type": "port"
             },
             {
-                "origin": "Atlantic Ocean",
                 "dest": "Gibraltar",
                 "type": "port"
             },
             {
-                "origin": "Atlantic Ocean",
                 "dest": "Bay of Biscay",
                 "type": "sea"
             },
             {
-                "origin": "Atlantic Ocean",
                 "dest": "Barbary Coast",
                 "type": "sea"
             }
@@ -3755,52 +3201,42 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "Gulf of Lyon",
                 "dest": "Cartagena",
                 "type": "port"
             },
             {
-                "origin": "Gulf of Lyon",
                 "dest": "Valencia",
                 "type": "port"
             },
             {
-                "origin": "Gulf of Lyon",
                 "dest": "Barcelona",
                 "type": "port"
             },
             {
-                "origin": "Gulf of Lyon",
                 "dest": "Palma",
                 "type": "port"
             },
             {
-                "origin": "Gulf of Lyon",
                 "dest": "Marseille",
                 "type": "port"
             },
             {
-                "origin": "Gulf of Lyon",
                 "dest": "Nice",
                 "type": "port"
             },
             {
-                "origin": "Gulf of Lyon",
                 "dest": "Bastia",
                 "type": "port"
             },
             {
-                "origin": "Gulf of Lyon",
                 "dest": "Genoa",
                 "type": "port"
             },
             {
-                "origin": "Gulf of Lyon",
                 "dest": "Tyrrhenian Sea",
                 "type": "sea"
             },
             {
-                "origin": "Gulf of Lyon",
                 "dest": "Barbary Coast",
                 "type": "sea"
             }
@@ -3812,62 +3248,50 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "Barbary Coast",
                 "dest": "Gibraltar",
                 "type": "port"
             },
             {
-                "origin": "Barbary Coast",
                 "dest": "Cartagena",
                 "type": "port"
             },
             {
-                "origin": "Barbary Coast",
                 "dest": "Palma",
                 "type": "port"
             },
             {
-                "origin": "Barbary Coast",
                 "dest": "Cagliari",
                 "type": "port"
             },
             {
-                "origin": "Barbary Coast",
                 "dest": "Tunis",
                 "type": "port"
             },
             {
-                "origin": "Barbary Coast",
                 "dest": "Algiers",
                 "type": "port"
             },
             {
-                "origin": "Barbary Coast",
                 "dest": "Oran",
                 "type": "port"
             },
             {
-                "origin": "Barbary Coast",
                 "dest": "Atlantic Ocean",
                 "type": "sea"
             },
             {
-                "origin": "Barbary Coast",
                 "dest": "Gulf of Lyon",
                 "type": "sea"
             },
             {
-                "origin": "Barbary Coast",
                 "dest": "Tyrrhenian Sea",
                 "type": "sea"
             },
             {
-                "origin": "Barbary Coast",
                 "dest": "Ionian Sea",
                 "type": "sea"
             },
             {
-                "origin": "Barbary Coast",
                 "dest": "North African Coast",
                 "type": "sea"
             }
@@ -3879,47 +3303,38 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "Tyrrhenian Sea",
                 "dest": "Genoa",
                 "type": "port"
             },
             {
-                "origin": "Tyrrhenian Sea",
                 "dest": "Rome",
                 "type": "port"
             },
             {
-                "origin": "Tyrrhenian Sea",
                 "dest": "Bastia",
                 "type": "port"
             },
             {
-                "origin": "Tyrrhenian Sea",
                 "dest": "Naples",
                 "type": "port"
             },
             {
-                "origin": "Tyrrhenian Sea",
                 "dest": "Messina",
                 "type": "port"
             },
             {
-                "origin": "Tyrrhenian Sea",
                 "dest": "Palermo",
                 "type": "port"
             },
             {
-                "origin": "Tyrrhenian Sea",
                 "dest": "Cagliari",
                 "type": "port"
             },
             {
-                "origin": "Tyrrhenian Sea",
                 "dest": "Gulf of Lyon",
                 "type": "sea"
             },
             {
-                "origin": "Tyrrhenian Sea",
                 "dest": "Barbary Coast",
                 "type": "sea"
             }
@@ -3931,52 +3346,42 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "Ionian Sea",
                 "dest": "Taranto",
                 "type": "port"
             },
             {
-                "origin": "Ionian Sea",
                 "dest": "Corfu",
                 "type": "port"
             },
             {
-                "origin": "Ionian Sea",
                 "dest": "Lepanto",
                 "type": "port"
             },
             {
-                "origin": "Ionian Sea",
                 "dest": "Coron",
                 "type": "port"
             },
             {
-                "origin": "Ionian Sea",
                 "dest": "Malta",
                 "type": "port"
             },
             {
-                "origin": "Ionian Sea",
                 "dest": "Messina",
                 "type": "port"
             },
             {
-                "origin": "Ionian Sea",
                 "dest": "Adriatic Sea",
                 "type": "sea"
             },
             {
-                "origin": "Ionian Sea",
                 "dest": "Aegean Sea",
                 "type": "sea"
             },
             {
-                "origin": "Ionian Sea",
                 "dest": "North African Coast",
                 "type": "sea"
             },
             {
-                "origin": "Ionian Sea",
                 "dest": "Barbary Coast",
                 "type": "sea"
             }
@@ -3988,42 +3393,34 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "North African Coast",
                 "dest": "Tunis",
                 "type": "port"
             },
             {
-                "origin": "North African Coast",
                 "dest": "Malta",
                 "type": "port"
             },
             {
-                "origin": "North African Coast",
                 "dest": "Tripoli",
                 "type": "port"
             },
             {
-                "origin": "North African Coast",
                 "dest": "Candia",
                 "type": "port"
             },
             {
-                "origin": "North African Coast",
                 "dest": "Rhodes",
                 "type": "port"
             },
             {
-                "origin": "North African Coast",
                 "dest": "Barbary Coast",
                 "type": "sea"
             },
             {
-                "origin": "North African Coast",
                 "dest": "Ionian Sea",
                 "type": "sea"
             },
             {
-                "origin": "North African Coast",
                 "dest": "Aegean Sea",
                 "type": "sea"
             }
@@ -4035,42 +3432,34 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "Aegean Sea",
                 "dest": "Salonika",
                 "type": "port"
             },
             {
-                "origin": "Aegean Sea",
                 "dest": "Istanbul",
                 "type": "port"
             },
             {
-                "origin": "Aegean Sea",
                 "dest": "Rhodes",
                 "type": "port"
             },
             {
-                "origin": "Aegean Sea",
                 "dest": "Candia",
                 "type": "port"
             },
             {
-                "origin": "Aegean Sea",
                 "dest": "Coron",
                 "type": "port"
             },
             {
-                "origin": "Aegean Sea",
                 "dest": "Athens",
                 "type": "port"
             },
             {
-                "origin": "Aegean Sea",
                 "dest": "Ionian Sea",
                 "type": "sea"
             },
             {
-                "origin": "Aegean Sea",
                 "dest": "North African Coast",
                 "type": "sea"
             }
@@ -4082,12 +3471,10 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "Black Sea",
                 "dest": "Varna",
                 "type": "port"
             },
             {
-                "origin": "Black Sea",
                 "dest": "Istanbul",
                 "type": "port"
             }
@@ -4099,47 +3486,38 @@
         "home_power": "sea",
         "connections": [
             {
-                "origin": "Adriatic Sea",
                 "dest": "Venice",
                 "type": "port"
             },
             {
-                "origin": "Adriatic Sea",
                 "dest": "Trieste",
                 "type": "port"
             },
             {
-                "origin": "Adriatic Sea",
                 "dest": "Ravenna",
                 "type": "port"
             },
             {
-                "origin": "Adriatic Sea",
                 "dest": "Ancona",
                 "type": "port"
             },
             {
-                "origin": "Adriatic Sea",
                 "dest": "Scutari",
                 "type": "port"
             },
             {
-                "origin": "Adriatic Sea",
                 "dest": "Durazzo",
                 "type": "port"
             },
             {
-                "origin": "Adriatic Sea",
                 "dest": "Corfu",
                 "type": "port"
             },
             {
-                "origin": "Adriatic Sea",
                 "dest": "Ragusa",
                 "type": "port"
             },
             {
-                "origin": "Adriatic Sea",
                 "dest": "Ionian Sea",
                 "type": "sea"
             }

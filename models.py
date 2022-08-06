@@ -18,11 +18,11 @@ connection_types = ['normal', 'pass', 'port', 'sea']
 
 
 class Space(object):
-    def __init__(self, name, type_, home_power, connections=None):
+    def __init__(self, name, type_, home_power):
         self.name = name
         self.type = type_
         self.home_power = home_power
-        self.connections = connections or []
+        self.connections = []
 
     @classmethod
     def from_csv_row(cls, row):
@@ -38,7 +38,9 @@ class Space(object):
         return f"Space:{self.name}"
 
 
-class Connection(object):
+class ConnectionRow(object):
+    """Represents a row from connections.csv"""
+
     def __init__(self, row):
         self.origin = row[0]
         self.dest = row[1]
@@ -46,3 +48,12 @@ class Connection(object):
 
     def __str__(self):
         return f"{self.origin} -> {self.dest}"
+
+
+class Connection(object):
+    """Represents a connection attached to a Space object - thus it doesn't need an 
+       origin, as that's implicit"""
+
+    def __init__(self, dest, type_):
+        self.dest = dest
+        self.type = type_
