@@ -6,7 +6,7 @@ Various virtual implementations exist; I know of ones for [Vassal](https://vassa
 In working on my own extension to an existing Tabletop Simulator mod, I wanted to create a programmatic model of all the spaces on the board. I was unable to find an existing data set for this that was not tangled up with the details of the other implementations. So I have created my own, available here, and I have endeavoured to make it:
 
 * **Free of error** (by use of automatic validation to catch mistakes I made during manual transcription)
-* **Easily consumable by others** (currently in CSV and JSON formats, but let me know if you need something else. Also, it is released under a permissive licence.)
+* **Easily consumable by others** (currently in CSV and JSON formats, but let me know if you need something else. Also, it is released under [a permissive licence](LICENSE.md).)
 
 # How to use
 ## Downloads
