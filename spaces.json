@@ -1,7 +1,7 @@
 [
     {
         "name": "Stirling",
-        "type": "normal",
+        "type": "fortress",
         "home_power": "scotland",
         "connections": [
             {
