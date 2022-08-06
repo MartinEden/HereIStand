@@ -7,11 +7,12 @@ Edinburgh,Glasgow,normal
 Edinburgh,North Sea,port
 Glasgow,Edinburgh,normal
 Glasgow,Carlisle,normal
+Glasgow,Stirling,normal
 Glasgow,Irish Sea,port
 Berwick,Edinburgh,normal
 Berwick,Carlisle,normal
 Berwick,York,normal
-Berwich,North Sea,port
+Berwick,North Sea,port
 Carlisle,Glasgow,normal
 Carlisle,Berwick,normal
 Carlisle,York,normal
@@ -79,11 +80,11 @@ Tours,Limoges,normal
 Tours,Bordeaux,normal
 Tours,Nantes,normal
 Paris,Rouen,normal
-Paris,Bordeaux,normal
 Paris,St. Quentin,normal
 Paris,St. Dizier,normal
 Paris,Dijon,normal
 Paris,Orléans,normal
+Paris,Boulogne,normal
 St. Quentin,Boulogne,normal
 St. Quentin,Brussels,normal
 St. Quentin,St. Dizier,normal
@@ -154,8 +155,10 @@ Grenoble,Turin,pass
 Grenoble,Lyon,normal
 Marseille,Avignon,normal
 Marseille,Nice,normal
+Marseille,Gulf of Lyon,port
 Nice,Marseille,normal
 Nice,Genoa,pass
+Nice,Gulf of Lyon,port
 Navarre,Bordeaux,pass
 Navarre,Bilbao,normal
 Navarre,Zaragoza,normal
@@ -261,7 +264,7 @@ Ravenna,Ancona,normal
 Ravenna,Modena,normal
 Ravenna,Adriatic Sea,port
 Bastia,Gulf of Lyon,port
-Bastia,Adriatic Sea,port
+Bastia,Tyrrhenian Sea,port
 Siena,Genoa,normal
 Siena,Florence,normal
 Siena,Rome,normal
@@ -336,6 +339,11 @@ Brandenburg,Breslau,normal
 Brandenburg,Wittenberg,normal
 Brandenburg,Magdeburg,normal
 Brandenburg,Lübeck,normal
+Wittenberg,Brandenburg,normal
+Wittenberg,Breslau,normal
+Wittenberg,Prague,normal
+Wittenberg,Leipzig,normal
+Wittenberg,Magdeburg,normal
 Cologne,Münster,normal
 Cologne,Mainz,normal
 Cologne,Liege,normal
@@ -462,11 +470,11 @@ Nicopolis,Belgrade,normal
 Nicopolis,Bucharest,normal
 Nicopolis,Sofia,pass
 Bucharest,Nicopolis,normal
-Bucharest,Nicopolis,normal
+Bucharest,Varna,normal
 Sofia,Nezh,normal
 Sofia,Nicopolis,pass
 Sofia,Edirne,normal
-Sofia,Salonika,normal
+Sofia,Salonika,pass
 Varna,Bucharest,normal
 Varna,Black Sea,port
 Varna,Istanbul,normal
@@ -580,7 +588,7 @@ Adriatic Sea,Ravenna,port
 Adriatic Sea,Ancona,port
 Adriatic Sea,Scutari,port
 Adriatic Sea,Durazzo,port
-Adriatic Sea,Corf,port
+Adriatic Sea,Corfu,port
 Adriatic Sea,Ragusa,port
 Adriatic Sea,Ionian Sea,sea
 Ionian Sea,Taranto,port
@@ -611,3 +619,5 @@ Aegean Sea,Ionian Sea,sea
 Aegean Sea,North African Coast,sea
 Black Sea,Varna,port
 Black Sea,Istanbul,port
+Baltic Sea,Lübeck,port
+Baltic Sea,Stettin,port
